@@ -28,6 +28,11 @@ csl         : "./assets/bib/apa.csl"
 - Explore *what* and *how much* adults are capable of learning in optimal conditions 
 context.
 - Explore relationship between production/perception in early stages of L2 acquisition
+- Explore how L2 categories develop over time
+
+*** pnotes
+
+- This project is concerned with the acquisition of second language phonology. 
 
 ---
 
@@ -85,7 +90,43 @@ attainment is difficult/uncommon
 </div>
 
 </br>
+
 >- Accurately acquiring the stop contrasts of a foreign language can significantly improve foreign accent ratings (Sundara, Polka, & Baum, 2006)
+
+*** pnotes
+
+- the task of the L2 learner of Spanish is to associate short-lag VOT with Spanish voiceless /p, t, k/, 
+- and create a new category altogether for lead VOT associated with voiced /b, d,
+g/ in order to produce and perceive the Spanish stop contrasts accurately 
+
+---
+
+## Introduction
+
+### Language acquisition contexts (Batstone, 2002)
+
+> - *communicative context*: L2 learners use the TL in order to exchange information
+> - <BLUE>learning context</BLUE>: input generally comes from a teacher, with special emphasis placed on attention to form (e.g. traditional classroom)
+> - **immersion context** (e.g. study abroad, domestic immersion)
+
+*** pnotes
+
+- CC = often immigrants that are confronted with the task of learning the majority language in their linguistic environment. 
+- LC = The latter group typically consists of high school or college students taking a foreign language class for credit towards a diploma or a degree. 
+- SA = naturalistic communicative context with the added benefit of explicit instruction in a learning context.
+- Classroom shows advantages for XXX
+- SA shows advantages for XXX
+- There is little work on acquisition of L2 phonology as a function of context
+- This research aims to fill this gap
+
+---
+
+## Introduction
+
+### At-home, SA
+
+- Zampini (1998, 2001)
+- Stevens (20XX)
 
 ---
 
@@ -93,9 +134,16 @@ attainment is difficult/uncommon
 
 ### Research Questions
 
->1. Do LLs learn to produce and **perceive** the fine phonetic detail of Spanish stop contrasts after a short-term immersion program?
-2. What is the nature of the representations of the L2 sounds acquired in this context?
-3. Do LLs shift between language specific perceptual systems?
+>1. Do late learners produce and **perceive** the fine phonetic detail of Spanish stops after a short-term immersion program?
+2. At what point during the learning process do late learners begin to acquire a new, 
+language-specific phonetic system? How much exposure is necessary for the acquisition 
+of L2 fine phonetic detail?
+3. What is the nature of the representations of the L2 sounds acquired in this context?
+4. What is the temporal relationship between production and perception with regard 
+to category formation? 
+5. Do LLs shift between language specific perceptual systems?
+6. What is the role of input with regard to accurately and efficiently acquiring a novel 
+speech sound?
 
 --- .segue bg:lightblue
 
@@ -159,28 +207,429 @@ attainment is difficult/uncommon
 
 --- 
 
-## Method
-
-### Materials
-
-- Demographic questionnaire 
-- Assessment questionnaire
-- Bilingual Language Profile
-
----
-
-## Method
+## Overview
 
 ### Participants
 
 - Late learners (LL, n = 10)
 - Simultaneous bilinguals (BI, n = 10)
 
+### Questionnaires
+
+- Demographic questionnaire (LL)
+- Assessment questionnaire (LL)
+- Bilingual Language Profile (BI)
+
+### Experimental tasks
+
+- Production (2)
+- Perception (2)
+
+---
+
+## Domestic immersion program
+
+### Middlebury College Language Schools
+
+>- 7 week Summer immersion program (Middlebury, VT)
+- Language Pledge
+  - Formal agreement between the program and the student by which 
+  the student promises to use only the target language throughout 
+  the duration of the program.
+  - Prohibits students from using English—or any language apart 
+  from the one they are studying—for the course of the program.
+- Live in residence halls with other students/professors/bilingual assistants.
+- Everything in target language.
+
+---
+
+## Participants
+
+### Late learners (LL)
+
+>- 10 functionally monolingual American English speakers (4 males, 6 females)
+- age: 23.7 y/o (sd = 5.27)
+- Completed a demographic questionnaire describing their previous experience with Spanish.
+- More than the equivalent of one semester of Spanish = excluded
+- From all over the United States 
+- Participated in 7-week at-home immersion Spanish program that took place during the Summer at a U.S. college campus. 
+
+---
+
+## Questionnaires
+
+### Demographic questionnaire
+
+- Administered on 1st day through google forms
+- Age, sex, language history, travel history, parents languages, Spanish level
+
+### Assessment questionnaire
+
+- Administered at the beginning of every experimental session
+- Self-reported...
+  - time spent speaking Spanish/English
+  - time spent speaking native/non-native speakers
+  - speaking, listening and overall level in Spanish
+  - sense of improvement
+  - satisfaction with Spanish abilities
+  - extracurricular activity participation
+
+---
+
+## Late learners
+
+</br>
+
+<div align="center">
+  <img width='725' src="./assets/img/method/map.png">
+</div>
+
 ---
 
 <div align="center">
   <img width='725' src="./assets/img/method/radarPlot.png">
 </div>
+
+*** pnotes
+
+- week 0 assessment all participants reported using Spanish 0% of the time and English 100% 
+- LLs used English minimally, roughly 13.5% of the time  
+- LLs reported interacting with native speakers 40.5% of the time, and with more proficient NNS 65.5% of the time.
+- the LL group received high amounts of L2 input (though not entirely native input), and reported minimal L1 use. The weekly percentages for each participant are available in Appendix A.0.4. The LL groups self assessments of listening, speaking, and overall ability improved with increased exposure to Spanish. For example, on the first day of the program the LLs rated their speaking abilities as a 2.7 out of 10. After the final assessment this rating had increased to 5.4 out of 10. Figure 2.1 displays a radar plot summarizing the assessment data over the course of the program.
+
+---
+
+<div align="center">
+
+<!-- MotionChart generated in R 3.2.4 by googleVis 0.5.10 package -->
+<!-- Tue May  3 16:51:48 2016 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataMotionChartID47ac48f1be21 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+ "useSpan",
+new Date(2015,5,25),
+0,
+0 
+],
+[
+ "useSpan",
+new Date(2015,6,1),
+1,
+91 
+],
+[
+ "useSpan",
+new Date(2015,6,8),
+2,
+87 
+],
+[
+ "useSpan",
+new Date(2015,6,15),
+3,
+87 
+],
+[
+ "useSpan",
+new Date(2015,6,22),
+4,
+88 
+],
+[
+ "useSpan",
+new Date(2015,6,29),
+5,
+89 
+],
+[
+ "useSpan",
+new Date(2015,7,5),
+6,
+88 
+],
+[
+ "useEng",
+new Date(2015,5,25),
+0,
+100 
+],
+[
+ "useEng",
+new Date(2015,6,1),
+1,
+11 
+],
+[
+ "useEng",
+new Date(2015,6,8),
+2,
+11 
+],
+[
+ "useEng",
+new Date(2015,6,15),
+3,
+15 
+],
+[
+ "useEng",
+new Date(2015,6,22),
+4,
+10 
+],
+[
+ "useEng",
+new Date(2015,6,29),
+5,
+11 
+],
+[
+ "useEng",
+new Date(2015,7,5),
+6,
+23 
+],
+[
+ "speak",
+new Date(2015,5,25),
+0,
+27 
+],
+[
+ "speak",
+new Date(2015,6,1),
+1,
+38 
+],
+[
+ "speak",
+new Date(2015,6,8),
+2,
+42 
+],
+[
+ "speak",
+new Date(2015,6,15),
+3,
+46 
+],
+[
+ "speak",
+new Date(2015,6,22),
+4,
+55 
+],
+[
+ "speak",
+new Date(2015,6,29),
+5,
+53 
+],
+[
+ "speak",
+new Date(2015,7,5),
+6,
+54 
+],
+[
+ "understand",
+new Date(2015,5,25),
+0,
+49 
+],
+[
+ "understand",
+new Date(2015,6,1),
+1,
+57 
+],
+[
+ "understand",
+new Date(2015,6,8),
+2,
+60 
+],
+[
+ "understand",
+new Date(2015,6,15),
+3,
+58 
+],
+[
+ "understand",
+new Date(2015,6,22),
+4,
+61 
+],
+[
+ "understand",
+new Date(2015,6,29),
+5,
+66 
+],
+[
+ "understand",
+new Date(2015,7,5),
+6,
+67 
+],
+[
+ "overall",
+new Date(2015,5,25),
+0,
+35 
+],
+[
+ "overall",
+new Date(2015,6,1),
+1,
+47 
+],
+[
+ "overall",
+new Date(2015,6,8),
+2,
+49 
+],
+[
+ "overall",
+new Date(2015,6,15),
+3,
+51 
+],
+[
+ "overall",
+new Date(2015,6,22),
+4,
+52 
+],
+[
+ "overall",
+new Date(2015,6,29),
+5,
+55 
+],
+[
+ "overall",
+new Date(2015,7,5),
+6,
+58 
+] 
+];
+data.addColumn('string','var');
+data.addColumn('date','date');
+data.addColumn('number','week');
+data.addColumn('number','value');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartMotionChartID47ac48f1be21() {
+var data = gvisDataMotionChartID47ac48f1be21();
+var options = {};
+options["width"] =   1000;
+options["height"] =    600;
+options["state"] = "";
+
+    var chart = new google.visualization.MotionChart(
+    document.getElementById('MotionChartID47ac48f1be21')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "motionchart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartMotionChartID47ac48f1be21);
+})();
+function displayChartMotionChartID47ac48f1be21() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID47ac48f1be21"></script>
+ 
+<!-- divChart -->
+  
+<div id="MotionChartID47ac48f1be21" 
+  style="width: 1000; height: 600;">
+</div>
+
+</div>
+
+---
+
+## Participants
+
+### Simultaneous (native) bilinguals
+
+- Control group
+- Simultaneous Spanish/English bilinguals (n = 10) 
+- Raised in Tucson, Arizona 
+- Age: 23.3 (2.91)
+- Use Spanish at home and with friends.
+- Consider themselves fluent in both languages.
+- Langauge dominance questionnaire (BLP)
+
+---
+
+## BLP (Birdsong, Amengual, Gertken, 2012)
+
+- Bilingual Language Profile has four components: 
+    - history (6 questions)
+    - use (5 questions) 
+    - competency (4 questions) 
+    - attitudes (4 questions)
+- Responses are numeric
+    - score assigned to each language
+        - Negative values = dominant in Spanish 
+        - Positive values = dominant in English
+        - Values close to 0 indicate balanced bilingualism 
+        (mean = **7.63**; SD = **19.07**)
 
 ---
 
@@ -189,7 +638,34 @@ attainment is difficult/uncommon
   <img src="./assets/img/method/blp.png">
 </div>
 
+---
+
+## Tasks
+
+- Production
+  - Shadowing/Visual word recall administered weekly
+  - Visual picture recall: administered post program
+- Perception
+  - 2AFC (a): ba/pa administered weekly
+  - 2AFC (b): bafri/pafri administered post program in two sessions
+- Metrics
+  - **Response accuracy**
+  - **VOT**
+  - burst properties
+  - vowel formants
+
+---
+
+## Experimental design
+
+<p></p>
+<div align="center">
+  <img width="1000" src="./assets/img/method/exp_design.png">
+</div>
+
 --- .segue bg:grey
+
+
 
 
 
@@ -252,6 +728,8 @@ attainment is difficult/uncommon
 
 --- .segue bg:black
 
+
+
 # Experiment 1
 </br></br></br></br></br></br></br></br></br></br></br>
 **Longitudinal development of stop production**
@@ -282,6 +760,481 @@ attainment is difficult/uncommon
 
 - Aspiration decreases as a function of time for voiceless stops
 - Pre-voicing is incorporated into production of voiced stops
+
+---
+
+<div align="center">
+
+<!-- MotionChart generated in R 3.2.4 by googleVis 0.5.10 package -->
+<!-- Tue May  3 16:41:56 2016 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataMotionChartID47ac9622f47 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+ "b",
+new Date(2015,5,25),
+"bilabial",
+"voiced",
+0,
+-83.58726667,
+13.54186667 
+],
+[
+ "b",
+new Date(2015,6,1),
+"bilabial",
+"voiced",
+1,
+-83.58726667,
+11.11302013 
+],
+[
+ "b",
+new Date(2015,6,8),
+"bilabial",
+"voiced",
+2,
+-83.58726667,
+8.299466667 
+],
+[
+ "b",
+new Date(2015,6,15),
+"bilabial",
+"voiced",
+3,
+-83.58726667,
+-17.15060811 
+],
+[
+ "b",
+new Date(2015,6,22),
+"bilabial",
+"voiced",
+4,
+-83.58726667,
+-19.14965753 
+],
+[
+ "b",
+new Date(2015,6,29),
+"bilabial",
+"voiced",
+5,
+-83.58726667,
+-16.5652 
+],
+[
+ "b",
+new Date(2015,7,5),
+"bilabial",
+"voiced",
+6,
+-83.58726667,
+-24.94806667 
+],
+[
+ "p",
+new Date(2015,5,25),
+"bilabial",
+"voiceless",
+0,
+16.5562,
+32.06493333 
+],
+[
+ "p",
+new Date(2015,6,1),
+"bilabial",
+"voiceless",
+1,
+16.5562,
+34.65586667 
+],
+[
+ "p",
+new Date(2015,6,8),
+"bilabial",
+"voiceless",
+2,
+16.5562,
+28.56726667 
+],
+[
+ "p",
+new Date(2015,6,15),
+"bilabial",
+"voiceless",
+3,
+16.5562,
+23.2006 
+],
+[
+ "p",
+new Date(2015,6,22),
+"bilabial",
+"voiceless",
+4,
+16.5562,
+19.91805369 
+],
+[
+ "p",
+new Date(2015,6,29),
+"bilabial",
+"voiceless",
+5,
+16.5562,
+22.46366667 
+],
+[
+ "p",
+new Date(2015,7,5),
+"bilabial",
+"voiceless",
+6,
+16.5562,
+21.40168919 
+],
+[
+ "d",
+new Date(2015,5,25),
+"coronal",
+"voiced",
+0,
+-84.46831081,
+16.7942 
+],
+[
+ "d",
+new Date(2015,6,1),
+"coronal",
+"voiced",
+1,
+-84.46831081,
+15.78466667 
+],
+[
+ "d",
+new Date(2015,6,8),
+"coronal",
+"voiced",
+2,
+-84.46831081,
+11.8766 
+],
+[
+ "d",
+new Date(2015,6,15),
+"coronal",
+"voiced",
+3,
+-84.46831081,
+-14.91646667 
+],
+[
+ "d",
+new Date(2015,6,22),
+"coronal",
+"voiced",
+4,
+-84.46831081,
+-18.98526667 
+],
+[
+ "d",
+new Date(2015,6,29),
+"coronal",
+"voiced",
+5,
+-84.46831081,
+-14.41436242 
+],
+[
+ "d",
+new Date(2015,7,5),
+"coronal",
+"voiced",
+6,
+-84.46831081,
+-14.6588 
+],
+[
+ "t",
+new Date(2015,5,25),
+"coronal",
+"voiceless",
+0,
+14.85446667,
+33.75666667 
+],
+[
+ "t",
+new Date(2015,6,1),
+"coronal",
+"voiceless",
+1,
+14.85446667,
+40.28726667 
+],
+[
+ "t",
+new Date(2015,6,8),
+"coronal",
+"voiceless",
+2,
+14.85446667,
+27.37233333 
+],
+[
+ "t",
+new Date(2015,6,15),
+"coronal",
+"voiceless",
+3,
+14.85446667,
+27.7033557 
+],
+[
+ "t",
+new Date(2015,6,22),
+"coronal",
+"voiceless",
+4,
+14.85446667,
+23.8824 
+],
+[
+ "t",
+new Date(2015,6,29),
+"coronal",
+"voiceless",
+5,
+14.85446667,
+26.26246667 
+],
+[
+ "t",
+new Date(2015,7,5),
+"coronal",
+"voiceless",
+6,
+14.85446667,
+23.58126667 
+],
+[
+ "g",
+new Date(2015,5,25),
+"velar",
+"voiced",
+0,
+-69.93729167,
+27.35986667 
+],
+[
+ "g",
+new Date(2015,6,1),
+"velar",
+"voiced",
+1,
+-69.93729167,
+24.94234899 
+],
+[
+ "g",
+new Date(2015,6,8),
+"velar",
+"voiced",
+2,
+-69.93729167,
+20.8038255 
+],
+[
+ "g",
+new Date(2015,6,15),
+"velar",
+"voiced",
+3,
+-69.93729167,
+-2.068791946 
+],
+[
+ "g",
+new Date(2015,6,22),
+"velar",
+"voiced",
+4,
+-69.93729167,
+-8.368933333 
+],
+[
+ "g",
+new Date(2015,6,29),
+"velar",
+"voiced",
+5,
+-69.93729167,
+-4.96 
+],
+[
+ "g",
+new Date(2015,7,5),
+"velar",
+"voiced",
+6,
+-69.93729167,
+-10.46624161 
+],
+[
+ "k",
+new Date(2015,5,25),
+"velar",
+"voiceless",
+0,
+31.16190476,
+45.53893333 
+],
+[
+ "k",
+new Date(2015,6,1),
+"velar",
+"voiceless",
+1,
+31.16190476,
+50.32826667 
+],
+[
+ "k",
+new Date(2015,6,8),
+"velar",
+"voiceless",
+2,
+31.16190476,
+42.66326667 
+],
+[
+ "k",
+new Date(2015,6,15),
+"velar",
+"voiceless",
+3,
+31.16190476,
+35.34926667 
+],
+[
+ "k",
+new Date(2015,6,22),
+"velar",
+"voiceless",
+4,
+31.16190476,
+42.0052 
+],
+[
+ "k",
+new Date(2015,6,29),
+"velar",
+"voiceless",
+5,
+31.16190476,
+44.77486667 
+],
+[
+ "k",
+new Date(2015,7,5),
+"velar",
+"voiceless",
+6,
+31.16190476,
+40.34966667 
+] 
+];
+data.addColumn('string','phon');
+data.addColumn('date','week');
+data.addColumn('string','place');
+data.addColumn('string','voicing');
+data.addColumn('number','session');
+data.addColumn('number','bi');
+data.addColumn('number','midd');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartMotionChartID47ac9622f47() {
+var data = gvisDataMotionChartID47ac9622f47();
+var options = {};
+options["width"] =   1000;
+options["height"] =    600;
+options["state"] = "\n{\"yAxisOption\":\"6\",\"colorOption\":\"3\",\"dimensions\":{\"iconDimensions\":[\"dim0\"]}}\n";
+
+    var chart = new google.visualization.MotionChart(
+    document.getElementById('MotionChartID47ac9622f47')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "motionchart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartMotionChartID47ac9622f47);
+})();
+function displayChartMotionChartID47ac9622f47() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID47ac9622f47"></script>
+ 
+<!-- divChart -->
+  
+<div id="MotionChartID47ac9622f47" 
+  style="width: 1000; height: 600;">
+</div>
+
+</div>
 
 --- .segue bg:black
 
@@ -687,6 +1640,30 @@ GPSC Research and Project Grant </br></br>
 -->
 
 ## References
+
+- refs
+
+--- .segue bg:pink
+
+# Extras
+
+---
+
+## Domestic immersion program
+
+<div align="center">
+  <img width="300" src="./assets/img/method/learn.jpg">
+</div>
+
+---
+
+## Domestic immersion program
+
+</br>
+
+<div align="center">
+  <img width="600" src="./assets/img/method/learnMidd2.gif">
+</div>
 
 
 

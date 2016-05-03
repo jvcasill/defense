@@ -2,3 +2,7 @@ base
 slidify
 knitcitations
 devtools
+knitr
+googleVis
+dplyr
+tidyr
