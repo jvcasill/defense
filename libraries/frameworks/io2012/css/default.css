@@ -1501,3 +1501,9 @@ aside.gdbar img {
     font-family: monospace !important;
   }
 }
+
+
+
+
+/* remove grey shadow from slides*/
+slides > slide.backdrop{background: white};
