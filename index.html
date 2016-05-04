@@ -264,11 +264,17 @@ speech sound?</li>
 </slide>
 
 <slide class="segue" id="slide-12" style="background:grey;">
-  <hgroup>
-    <h1>Method</h1>
-  </hgroup>
   <article data-timings="">
     <!-- 
+L2 learners tend to produce VOT values somewhere between monolingual averages (e.g., Caramazza et al. 1973; Flege, 1987)
+Early learners shift between language specific perceptual systems (Gonzales & Lotto, 2013)
+LLs VOT production and perception can become more native-like in a 16 week semester (Zampini, 1998; 2001)
+Production shifts occurred before perceptual boundary shifts.
+ -->
+
+<h1>Method</h1>
+
+<!-- 
 #{{~}}#
 # Method                    #
 #{{~}}#
@@ -853,8 +859,17 @@ callbacks.shift()();
   </hgroup>
   <article data-timings="">
     <ol>
-<li>Longitudinal development of stop production</li>
-<li>Semantic processing</li>
+<li>Longitudinal development of L2 stop production
+
+<ul>
+<li>Examine ongoing development of Spanish stop production in adult learners of Spanish</li>
+<li>Focus on how production of stop voicing changed over the course of a domestic immersion program.</li>
+</ul></li>
+<li>Effects of semantic processing on stop production
+
+<ul>
+<li>Utilized picture naming task to determine if late learners&#39; phonetic processing was influenced by semantic processing when producing Spanish stops.</li>
+</ul></li>
 </ol>
 
   </article>
@@ -863,13 +878,25 @@ callbacks.shift()();
 
 <slide class="" id="slide-27" style="background:;">
   <hgroup>
-    <h2>Method</h2>
+    <h2>General method</h2>
   </hgroup>
   <article data-timings="">
-    <ol>
-<li>one</li>
-<li>two</li>
-</ol>
+    <h3>Recordings</h3>
+
+<ul>
+<li>Quiet room (LL) or sound attenuated booth (BI)</li>
+<li>Shure SM10A dynamic head-mounted microphone</li>
+<li>Sound Devices MM-1 microphone pre-amplifier</li>
+<li>Marantz PMD661 MKII Solid State Recorder</li>
+<li>Metric = VOT</li>
+</ul>
+
+<h3>Participants</h3>
+
+<ul>
+<li>LL (n = 10)</li>
+<li>BI (n = 10)</li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
@@ -891,7 +918,7 @@ callbacks.shift()();
   </hgroup>
   <article data-timings="">
     <p></br></br></br></br></br></br></br></br></br></br></br>
-<strong>Longitudinal development of stop production</strong></p>
+<strong>Longitudinal development of L2 stop production</strong></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -902,10 +929,33 @@ callbacks.shift()();
     <h2>Method</h2>
   </hgroup>
   <article data-timings="">
-    <ul>
-<li>one</li>
-<li>two [@praat]</li>
+    <div style="float:right">
+  <img width="50" src="./assets/img/fill.png">
+  <img width="250" src="./assets/img/prod/0_name1.png"> </br>
+  </br> <img width="50" src="./assets/img/fill.png"> 
+  <img width="250" src="./assets/img/prod/1_shadow11.png"> </br>
+  </br> <img width="50" src="./assets/img/fill.png">
+  <img width="250" src="./assets/img/prod/1_shadow21.png"> </br>
+  </br> <img width="50" src="./assets/img/fill.png">
+</div>
+
+<h3>Word list</h3>
+
+<ul>
+<li>Spanish stops /p, t, k, b, d, g/ in utterance initial position</li>
+<li>Initial stop followed by one of five Spanish vowels and voiceless velar (i.e. /ˈbi.ki/, /ˈbe.ke/, /ˈba.ka/, /ˈbo.ko/, /ˈbu.ku/)</li>
+<li>30 target productions, 20 distractors (included target words for prod. exp. 2)</li>
+<li>3 repetitions = 90 tokens per session, 8 sessions = 720 tokens per participant</li>
+<li>Session 0 = delayed repetition</li>
+<li>Sessions 1-6 = reading</li>
+<li>Audio recordings produced by native Spanish speaker (Cádiz, Spain)</li>
 </ul>
+
+<p><audio controls>
+  <source src="./assets/img/prod/piki.ogg" type="audio/ogg">
+  <source src="./assets/img/prod/piki.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -913,13 +963,37 @@ callbacks.shift()();
 
 <slide class="" id="slide-31" style="background:;">
   <hgroup>
-    <h2>Results</h2>
+    <h2>Method</h2>
   </hgroup>
   <article data-timings="">
-    <ul>
-<li>One</li>
-<li>Two</li>
-</ul>
+    <h3>Analyses: General Linear Mixed Effects Models*</h3>
+
+<ol class = "build incremental">
+<li>Did the LL group improve their production of Spanish stops after a 7-week 
+immersion program?
+
+<ul>
+<li>Data from session 0 and session 6</li>
+<li><code>VOT ~ session * voicing * poa * vheight</code></li>
+</ul></li>
+<li>When did learning occur over the course of the program?
+
+<ul>
+<li>Data from session 0 through session 6</li>
+<li>Individual model for each stop</li>
+<li><code>VOT ~ session (0:6) * vheight</code></li>
+</ul></li>
+<li>How did the LLs compare to a group of simultaneous bilinguals?
+
+<ul>
+<li>Data from LL session 6</li>
+<li><code>VOT ~ group * voicing * poa * vheight</code></li>
+</ul></li>
+</ol>
+
+<p></p>
+
+<h4>*All models include a maximal error term (Barr et al., 2013)</h4>
 
   </article>
   <!-- Presenter Notes -->
@@ -935,7 +1009,7 @@ callbacks.shift()();
 
 </div>    
 <div class='right' style='float:right;width:40%'>
- <ul>
+ <ul class = "build incremental">
 <li>Aspiration decreases as a function of time for voiceless stops</li>
 <li>Pre-voicing is incorporated into production of voiced stops</li>
 </ul>
@@ -1424,13 +1498,18 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="segue" id="slide-34" style="background:black;">
-  <hgroup>
-    <h1>Experiment 2</h1>
-  </hgroup>
+<slide class="" id="slide-34" style="background:;">
   <article data-timings="">
-    <p></br></br></br></br></br></br></br></br></br></br></br>
-<strong>Semantic processing affects phonetic processing</strong></p>
+    <div align="center">
+  <img width='900' src="./assets/img/prod/prod1glmm3comp.png">
+</div>
+
+<p></br></p>
+
+<ul class = "build incremental">
+<li>Voiced segments clearly different, despite showing largest rate of change. </li>
+<li>The voiceless stops were more native like, at least with regard to VOT.</li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
@@ -1438,33 +1517,156 @@ callbacks.shift()();
 
 <slide class="" id="slide-35" style="background:;">
   <hgroup>
-    <h2>Method</h2>
+    <h2>Summary of findings</h2>
   </hgroup>
   <article data-timings="">
     <ul>
-<li>one </li>
-<li>two </li>
+<li>The LLs did improve their stop production in a 7-week immersion program</li>
+<li>Generally, learning took place after three weeks of exposure</li>
+<li>Some segments became more native-like than others</li>
+</ul>
+
+<p></br></p>
+
+<ul class = "build incremental">
+<li><strong>What is the nature of the new sound representations?</strong></li>
+<li><strong>Are production gains still present in a more difficult task?</strong></li>
 </ul>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-36" style="background:;">
+<slide class="segue" id="slide-36" style="background:black;">
   <hgroup>
-    <h2>Results</h2>
+    <h1>Experiment 2</h1>
   </hgroup>
   <article data-timings="">
-    <ul>
-<li>one </li>
-<li>two </li>
-</ul>
+    <p></br></br></br></br></br></br></br></br></br></br></br>
+<strong>Effects of semantic processing on stop production</strong></p>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
 <slide class="" id="slide-37" style="background:;">
+  <hgroup>
+    <h2>Background</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Semantic processing can affect production in L2 learners (Gustafson et al., 2013)</li>
+<li>Phonetic processing (&#39;planning, programming, and execution of articulation&#39;) is susceptible to cross-linguistic interference because semantic processing activates L1 representations</li>
+<li><strong>Does semantic processing affect the production gains observed in the LL group?</strong></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-38" style="background:;">
+  <hgroup>
+    <h2>Method</h2>
+  </hgroup>
+  <article data-timings="">
+    <div style="float:right">
+  <img width="50" src="./assets/img/fill.png">
+  <img width="200" src="./assets/img/prod/2_picture3.png"> </br>
+  </br><img width="50" src="./assets/img/fill.png">
+  <img width="200" src="./assets/img/prod/2_picture4.png"> </br>
+  </br><img width="50" src="./assets/img/fill.png">
+  <img width="200" src="./assets/img/prod/2_picture2.png">
+</div>
+
+<h3>Procedure</h3>
+
+<ul>
+<li>Picture naming task</li>
+<li>Participants said the word out loud upon recognizing it</li>
+<li>Instructed not to use definite article </li>
+</ul>
+
+<h3>Pictures</h3>
+
+<ul>
+<li>20 pictures, 12 included stop in word initial position</li>
+<li>Bisyllabic, paraxytone </li>
+<li>Target segment followed by /a, o/</li>
+</ul>
+
+<h3>Data</h3>
+
+<ul>
+<li>VOT</li>
+<li>12 target stops x 3 repetitions x 10 participants x 2 groups = 720 tokens</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-39" style="background:;">
+  <article data-timings="">
+     
+<div style='float:left;width:48%;' class='centered'>
+  <p>Keywords</p>
+
+<ul>
+<li><strong>p</strong>alo</li>
+<li><strong>p</strong>olo</li>
+<li><BLUE>b</BLUE>ala</li>
+<li><BLUE>b</BLUE>ola</li>
+<li><strong>t</strong>aco</li>
+<li><strong>t</strong>opo</li>
+<li><BLUE>d</BLUE>ado</li>
+<li><BLUE>d</BLUE>odo</li>
+<li><strong>c</strong>aca</li>
+<li><strong>c</strong>oco</li>
+<li><BLUE>g</BLUE>ato</li>
+<li><BLUE>g</BLUE>ota</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p>Distractors</p>
+
+<ul>
+<li>arbol</li>
+<li>lapiz</li>
+<li>libro</li>
+<li>manzana</li>
+<li>mochila</li>
+<li>silla</li>
+<li>sol</li>
+<li>sombrero</li>
+</ul>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-40" style="background:;">
+  <hgroup>
+    <h2>Method</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Analysis: GLMM</h3>
+
+<ul>
+<li>Does semantic processing affect stop production?
+
+<ul>
+<li>LL reading data from session 6</li>
+<li><code>VOT ~ task * group * voicing * poa</code></li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-41" style="background:;">
   <article data-timings="">
     <div align="center">
   <img width='850' src="./assets/img/prod/prod2glmm1.png">
@@ -1474,21 +1676,54 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-38" style="background:;">
-  <hgroup>
-    <h2>Summary of findings</h2>
-  </hgroup>
+<slide class="" id="slide-42" style="background:;">
   <article data-timings="">
-    <ul>
-<li>one</li>
-<li>two</li>
+    <div align="center">
+  <img width='850' src="./assets/img/prod/prod2te.png">
+</div>
+
+<ul class = "build incremental">
+<li>Bilinguals unaffected by semantic processing</li>
+<li>LL affected by semantic processing
+
+<ul>
+<li>mainly in voiceless stops</li>
+<li>voiced stops have longer range (CLI = pre-voiced stops produced with short-lag VOT)</li>
+</ul></li>
 </ul>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="segue" id="slide-39" style="background:grey;">
+<slide class="" id="slide-43" style="background:;">
+  <hgroup>
+    <h2>Task effect correlated with self-reported proficiency</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>must include this</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-44" style="background:;">
+  <hgroup>
+    <h2>Summary of findings</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>The LL group, but not the bilingual group, was affected by semantic processing</li>
+<li>L2 representations are fragile and susceptible to CLI during early stages of phonetic category formation</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="segue" id="slide-45" style="background:grey;">
   <hgroup>
     <h1>Perception</h1>
   </hgroup>
@@ -1503,7 +1738,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-40" style="background:;">
+<slide class="" id="slide-46" style="background:;">
   <hgroup>
     <h2>Overview</h2>
   </hgroup>
@@ -1517,7 +1752,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-41" style="background:;">
+<slide class="" id="slide-47" style="background:;">
   <hgroup>
     <h2>Method</h2>
   </hgroup>
@@ -1533,7 +1768,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-42" style="background:;">
+<slide class="" id="slide-48" style="background:;">
   <article data-timings="">
     <p></br></br></br></p>
 
@@ -1545,7 +1780,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="segue" id="slide-43" style="background:black;">
+<slide class="segue" id="slide-49" style="background:black;">
   <hgroup>
     <h1>Experiment 1</h1>
   </hgroup>
@@ -1557,7 +1792,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-44" style="background:;">
+<slide class="" id="slide-50" style="background:;">
   <hgroup>
     <h2>Method</h2>
   </hgroup>
@@ -1571,7 +1806,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-45" style="background:;">
+<slide class="" id="slide-51" style="background:;">
   <hgroup>
     <h2>Results</h2>
   </hgroup>
@@ -1584,7 +1819,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="segue" id="slide-46" style="background:black;">
+<slide class="segue" id="slide-52" style="background:black;">
   <hgroup>
     <h1>Experiment 2</h1>
   </hgroup>
@@ -1596,7 +1831,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-47" style="background:;">
+<slide class="" id="slide-53" style="background:;">
   <hgroup>
     <h2>Method</h2>
   </hgroup>
@@ -1610,7 +1845,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-48" style="background:;">
+<slide class="" id="slide-54" style="background:;">
   <hgroup>
     <h2>Results</h2>
   </hgroup>
@@ -1623,7 +1858,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-49" style="background:;">
+<slide class="" id="slide-55" style="background:;">
   <hgroup>
     <h2>Summary of findings</h2>
   </hgroup>
@@ -1637,7 +1872,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="segue" id="slide-50" style="background:grey;">
+<slide class="segue" id="slide-56" style="background:grey;">
   <hgroup>
     <h1>Production and perception</h1>
   </hgroup>
@@ -1652,7 +1887,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-51" style="background:;">
+<slide class="" id="slide-57" style="background:;">
   <hgroup>
     <h2>Overview</h2>
   </hgroup>
@@ -1666,7 +1901,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-52" style="background:;">
+<slide class="" id="slide-58" style="background:;">
   <hgroup>
     <h2>Method</h2>
   </hgroup>
@@ -1680,7 +1915,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-53" style="background:;">
+<slide class="" id="slide-59" style="background:;">
   <hgroup>
     <h2>Results</h2>
   </hgroup>
@@ -1693,7 +1928,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-54" style="background:;">
+<slide class="" id="slide-60" style="background:;">
   <article data-timings="">
       
 <div class='left' style='float:left;width:40%'>
@@ -1713,7 +1948,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="segue" id="slide-55" style="background:grey;">
+<slide class="segue" id="slide-61" style="background:grey;">
   <hgroup>
     <h1>Discussion and conclusion</h1>
   </hgroup>
@@ -1728,7 +1963,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-56" style="background:;">
+<slide class="" id="slide-62" style="background:;">
   <hgroup>
     <h2>Summary of findings</h2>
   </hgroup>
@@ -1742,7 +1977,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-57" style="background:;">
+<slide class="" id="slide-63" style="background:;">
   <hgroup>
     <h2>Discussion</h2>
   </hgroup>
@@ -1756,7 +1991,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-58" style="background:;">
+<slide class="" id="slide-64" style="background:;">
   <hgroup>
     <h2>Conclusion</h2>
   </hgroup>
@@ -1770,7 +2005,7 @@ callbacks.shift()();
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-59" style="background:;">
+<slide class="" id="slide-65" style="background:;">
   <hgroup>
     <h2>Thank you</h2>
   </hgroup>
@@ -1804,7 +2039,7 @@ GPSC Research and Project Grant </br></br>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-60" style="background:;">
+<slide class="" id="slide-66" style="background:;">
   <article data-timings="">
     <!-- 
 #{{~}}#
@@ -1822,7 +2057,7 @@ GPSC Research and Project Grant </br></br>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="segue" id="slide-61" style="background:pink;">
+<slide class="segue" id="slide-67" style="background:pink;">
   <hgroup>
     <h1>Extras</h1>
   </hgroup>
@@ -1832,7 +2067,7 @@ GPSC Research and Project Grant </br></br>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-62" style="background:;">
+<slide class="" id="slide-68" style="background:;">
   <hgroup>
     <h2>Domestic immersion program</h2>
   </hgroup>
@@ -1845,7 +2080,7 @@ GPSC Research and Project Grant </br></br>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-63" style="background:;">
+<slide class="" id="slide-69" style="background:;">
   <hgroup>
     <h2>Domestic immersion program</h2>
   </hgroup>
@@ -1932,7 +2167,7 @@ GPSC Research and Project Grant </br></br>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=12 title='Method'>
+        data-slide=12 title='NA'>
          12
       </a>
     </li>
@@ -2022,7 +2257,7 @@ GPSC Research and Project Grant </br></br>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=27 title='Method'>
+        data-slide=27 title='General method'>
          27
       </a>
     </li>
@@ -2046,7 +2281,7 @@ GPSC Research and Project Grant </br></br>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=31 title='Results'>
+        data-slide=31 title='Method'>
          31
       </a>
     </li>
@@ -2064,49 +2299,49 @@ GPSC Research and Project Grant </br></br>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=34 title='Experiment 2'>
+        data-slide=34 title='NA'>
          34
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=35 title='Method'>
+        data-slide=35 title='Summary of findings'>
          35
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=36 title='Results'>
+        data-slide=36 title='Experiment 2'>
          36
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=37 title='NA'>
+        data-slide=37 title='Background'>
          37
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=38 title='Summary of findings'>
+        data-slide=38 title='Method'>
          38
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=39 title='Perception'>
+        data-slide=39 title='NA'>
          39
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=40 title='Overview'>
+        data-slide=40 title='Method'>
          40
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=41 title='Method'>
+        data-slide=41 title='NA'>
          41
       </a>
     </li>
@@ -2118,25 +2353,25 @@ GPSC Research and Project Grant </br></br>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=43 title='Experiment 1'>
+        data-slide=43 title='Task effect correlated with self-reported proficiency'>
          43
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=44 title='Method'>
+        data-slide=44 title='Summary of findings'>
          44
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=45 title='Results'>
+        data-slide=45 title='Perception'>
          45
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=46 title='Experiment 2'>
+        data-slide=46 title='Overview'>
          46
       </a>
     </li>
@@ -2148,73 +2383,73 @@ GPSC Research and Project Grant </br></br>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=48 title='Results'>
+        data-slide=48 title='NA'>
          48
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=49 title='Summary of findings'>
+        data-slide=49 title='Experiment 1'>
          49
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=50 title='Production and perception'>
+        data-slide=50 title='Method'>
          50
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=51 title='Overview'>
+        data-slide=51 title='Results'>
          51
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=52 title='Method'>
+        data-slide=52 title='Experiment 2'>
          52
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=53 title='Results'>
+        data-slide=53 title='Method'>
          53
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=54 title='NA'>
+        data-slide=54 title='Results'>
          54
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=55 title='Discussion and conclusion'>
+        data-slide=55 title='Summary of findings'>
          55
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=56 title='Summary of findings'>
+        data-slide=56 title='Production and perception'>
          56
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=57 title='Discussion'>
+        data-slide=57 title='Overview'>
          57
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=58 title='Conclusion'>
+        data-slide=58 title='Method'>
          58
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=59 title='Thank you'>
+        data-slide=59 title='Results'>
          59
       </a>
     </li>
@@ -2226,20 +2461,56 @@ GPSC Research and Project Grant </br></br>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=61 title='Extras'>
+        data-slide=61 title='Discussion and conclusion'>
          61
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=62 title='Domestic immersion program'>
+        data-slide=62 title='Summary of findings'>
          62
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=63 title='Domestic immersion program'>
+        data-slide=63 title='Discussion'>
          63
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=64 title='Conclusion'>
+         64
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=65 title='Thank you'>
+         65
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=66 title='NA'>
+         66
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=67 title='Extras'>
+         67
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=68 title='Domestic immersion program'>
+         68
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=69 title='Domestic immersion program'>
+         69
       </a>
     </li>
   </ul>

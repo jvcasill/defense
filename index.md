@@ -170,7 +170,12 @@ speech sound?
 
 
 
-
+<!-- 
+L2 learners tend to produce VOT values somewhere between monolingual averages (e.g., Caramazza et al. 1973; Flege, 1987)
+Early learners shift between language specific perceptual systems (Gonzales & Lotto, 2013)
+LLs VOT production and perception can become more native-like in a 16 week semester (Zampini, 1998; 2001)
+Production shifts occurred before perceptual boundary shifts.
+ -->
 
 
 
@@ -710,15 +715,28 @@ callbacks.shift()();
 
 ## Overview
 
-1. Longitudinal development of stop production
-2. Semantic processing
+1. Longitudinal development of L2 stop production
+  - Examine ongoing development of Spanish stop production in adult learners of Spanish
+  - Focus on how production of stop voicing changed over the course of a domestic immersion program.
+2. Effects of semantic processing on stop production
+  - Utilized picture naming task to determine if late learners' phonetic processing was influenced by semantic processing when producing Spanish stops.
 
 ---
 
-## Method
+## General method
 
-1. one
-2. two
+### Recordings
+
+- Quiet room (LL) or sound attenuated booth (BI)
+- Shure SM10A dynamic head-mounted microphone
+- Sound Devices MM-1 microphone pre-amplifier
+- Marantz PMD661 MKII Solid State Recorder
+- Metric = VOT
+
+### Participants
+
+- LL (n = 10)
+- BI (n = 10)
 
 ---
 
@@ -732,21 +750,59 @@ callbacks.shift()();
 
 # Experiment 1
 </br></br></br></br></br></br></br></br></br></br></br>
-**Longitudinal development of stop production**
+**Longitudinal development of L2 stop production**
 
 ---
 
 ## Method
 
-- one
-- two [@praat]
+<div style="float:right">
+  <img width="50" src="./assets/img/fill.png">
+  <img width="250" src="./assets/img/prod/0_name1.png"> </br>
+  </br> <img width="50" src="./assets/img/fill.png"> 
+  <img width="250" src="./assets/img/prod/1_shadow11.png"> </br>
+  </br> <img width="50" src="./assets/img/fill.png">
+  <img width="250" src="./assets/img/prod/1_shadow21.png"> </br>
+  </br> <img width="50" src="./assets/img/fill.png">
+</div>
+
+### Word list
+
+- Spanish stops /p, t, k, b, d, g/ in utterance initial position
+- Initial stop followed by one of five Spanish vowels and voiceless velar (i.e. /ˈbi.ki/, /ˈbe.ke/, /ˈba.ka/, /ˈbo.ko/, /ˈbu.ku/)
+- 30 target productions, 20 distractors (included target words for prod. exp. 2)
+- 3 repetitions = 90 tokens per session, 8 sessions = 720 tokens per participant
+- Session 0 = delayed repetition
+- Sessions 1-6 = reading
+- Audio recordings produced by native Spanish speaker (Cádiz, Spain)
+
+<audio controls>
+  <source src="./assets/img/prod/piki.ogg" type="audio/ogg">
+  <source src="./assets/img/prod/piki.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
-## Results
+## Method
 
-- One
-- Two
+### Analyses: General Linear Mixed Effects Models\*
+
+> 1. Did the LL group improve their production of Spanish stops after a 7-week 
+immersion program?
+  - Data from session 0 and session 6
+  - ```VOT ~ session * voicing * poa * vheight```
+2. When did learning occur over the course of the program?
+  - Data from session 0 through session 6
+  - Individual model for each stop
+  - ```VOT ~ session (0:6) * vheight```
+3. How did the LLs compare to a group of simultaneous bilinguals?
+  - Data from LL session 6
+  - ```VOT ~ group * voicing * poa * vheight```
+
+<p></p>
+
+#### \*All models include a maximal error term (Barr et al., 2013)
 
 --- &twocol2 w1:60% w2:40%
 
@@ -758,7 +814,7 @@ callbacks.shift()();
 
 *** {name: right}
 
-- Aspiration decreases as a function of time for voiceless stops
+> - Aspiration decreases as a function of time for voiceless stops
 - Pre-voicing is incorporated into production of voiced stops
 
 ---
@@ -1236,25 +1292,121 @@ callbacks.shift()();
 
 </div>
 
+---
+
+<div align="center">
+  <img width='900' src="./assets/img/prod/prod1glmm3comp.png">
+</div>
+
+</br>
+> - Voiced segments clearly different, despite showing largest rate of change. 
+- The voiceless stops were more native like, at least with regard to VOT.
+
+---
+
+## Summary of findings
+
+- The LLs did improve their stop production in a 7-week immersion program
+- Generally, learning took place after three weeks of exposure
+- Some segments became more native-like than others
+
+</br>
+
+> - **What is the nature of the new sound representations?**
+- **Are production gains still present in a more difficult task?**
+
+
+
+
+
+
+
+
 --- .segue bg:black
 
 # Experiment 2
 </br></br></br></br></br></br></br></br></br></br></br>
-**Semantic processing affects phonetic processing**
+**Effects of semantic processing on stop production**
+
+---
+
+## Background
+
+- Semantic processing can affect production in L2 learners (Gustafson et al., 2013)
+- Phonetic processing ('planning, programming, and execution of articulation') is susceptible to cross-linguistic interference because semantic processing activates L1 representations
+- **Does semantic processing affect the production gains observed in the LL group?**
 
 ---
 
 ## Method
 
-- one 
-- two 
+<div style="float:right">
+  <img width="50" src="./assets/img/fill.png">
+  <img width="200" src="./assets/img/prod/2_picture3.png"> </br>
+  </br><img width="50" src="./assets/img/fill.png">
+  <img width="200" src="./assets/img/prod/2_picture4.png"> </br>
+  </br><img width="50" src="./assets/img/fill.png">
+  <img width="200" src="./assets/img/prod/2_picture2.png">
+</div>
+
+### Procedure
+
+- Picture naming task
+- Participants said the word out loud upon recognizing it
+- Instructed not to use definite article 
+
+### Pictures
+
+- 20 pictures, 12 included stop in word initial position
+- Bisyllabic, paraxytone 
+- Target segment followed by /a, o/
+
+### Data
+
+- VOT
+- 12 target stops x 3 repetitions x 10 participants x 2 groups = 720 tokens
+
+--- &twocol
+
+*** {name: left}
+
+Keywords
+
+- **p**alo
+- **p**olo
+- <BLUE>b</BLUE>ala
+- <BLUE>b</BLUE>ola
+- **t**aco
+- **t**opo
+- <BLUE>d</BLUE>ado
+- <BLUE>d</BLUE>odo
+- **c**aca
+- **c**oco
+- <BLUE>g</BLUE>ato
+- <BLUE>g</BLUE>ota
+
+*** {name: right}
+
+Distractors
+
+- arbol
+- lapiz
+- libro
+- manzana
+- mochila
+- silla
+- sol
+- sombrero
 
 ---
 
-## Results
+## Method 
 
-- one 
-- two 
+### Analysis: GLMM
+
+- Does semantic processing affect stop production?
+  - LL reading data from session 6
+  - ```VOT ~ task * group * voicing * poa```
 
 ---
 
@@ -1264,10 +1416,28 @@ callbacks.shift()();
 
 ---
 
+<div align="center">
+  <img width='850' src="./assets/img/prod/prod2te.png">
+</div>
+
+
+> - Bilinguals unaffected by semantic processing
+- LL affected by semantic processing
+  - mainly in voiceless stops
+  - voiced stops have longer range (CLI = pre-voiced stops produced with short-lag VOT)
+
+---
+
+## Task effect correlated with self-reported proficiency
+
+- must include this
+
+---
+
 ## Summary of findings
 
-- one
-- two
+- The LL group, but not the bilingual group, was affected by semantic processing
+- L2 representations are fragile and susceptible to CLI during early stages of phonetic category formation
 
 --- .segue bg:grey
 
