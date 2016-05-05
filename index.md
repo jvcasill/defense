@@ -1404,7 +1404,7 @@ Distractors
 
 ### Analysis: GLMM
 
-- Does semantic processing affect stop production?
+1. Does semantic processing affect stop production?
   - LL reading data from session 6
   - ```VOT ~ task * group * voicing * poa```
 
@@ -1428,9 +1428,9 @@ Distractors
 
 ---
 
-## Task effect correlated with self-reported proficiency
-
-- must include this
+<div style="float:right">
+  <img width='650' src="./assets/img/prod/prod2Scatter.png">
+</div>
 
 ---
 
@@ -1491,17 +1491,32 @@ Distractors
 
 ## Overview
 
-1. Longitudinal development of stop perception
-2. Double perceptual boundaries in late learners
+1. Longitudinal development of stop perception (<BLUE>2AFC a</BLUE>)
+  - How does LLs' perception the Spanish /b/-/p/ stop contrast change  
+  as exposure to and use of Spanish increases?
+2. Double perceptual boundaries in L2 learners (**2AFC b**)?
+  - Do LLs develop a separate phonetic system for their L2, Spanish? 
+  - If so, can they switch between Spanish and English systems depending  
+  on the communicative context?
 
 ---
 
-## Method
+## General method
+
+### Experimental paradigm
+
+- Two-alternative forced-choice (2AFC) tasks
+- Participants select identity of speech sound
 
 ### Stimuli
 
-1. one
-2. two
+- Resynthesized VOT continua (-60 ms, 60 ms)
+- 13 steps
+
+### Participants
+
+- LL (n = 10)
+- BI (n = 10)
 
 ---
 
@@ -1512,6 +1527,12 @@ Distractors
 
 --- .segue bg:black
 
+
+
+
+
+
+
 # Experiment 1
 </br></br></br></br></br></br></br></br></br></br></br>
 **Longitudinal development of stop perception**
@@ -1520,44 +1541,283 @@ Distractors
 
 ## Method
 
-- one
-- two 
+### Stimuli
 
----
+- 25-year-old female bilingual English/Spanish speaker of the Southwestern U.S.
+- Spanish 'palabra' used as base
+- VOT manipulated in 10 ms increments to simulate both Spanish and English stop contrast systems
+- 13-step /ba/-/pa/ continuum (-60 ms to 60 ms)
 
-## Results
+</br>
 
-<div align="center">
-  <img width='900' src="./assets/img/perc/perc1log1.png">
-</div>
+<audio controls>
+  <source src="./assets/img/perc/00_pa_hybrid-60.ogg" type="audio/ogg">
+  <source src="./assets/img/perc/00_pa_hybrid-60.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
---- .segue bg:black
-
-# Experiment 2
-</br></br></br></br></br></br></br></br></br></br></br>
-**Double perceptual boundaries**
+<audio controls>
+  <source src="./assets/img/perc/12_pa_hybrid+60.ogg" type="audio/ogg">
+  <source src="./assets/img/perc/12_pa_hybrid+60.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
 ## Method
 
-- one 
-- two 
+<div style="float:right">
+  <img width="60" height="1" src="./assets/img/fill.png">
+  <img width="250" src="./assets/img/perc/3_2afcA1.png"></br></br>
+  <img width="60" height="1" src="./assets/img/fill.png">
+  <img width="250" src="./assets/img/perc/3_2afcA2.png"></br></br>
+  <img width="60" height="1" src="./assets/img/fill.png">
+  <img width="250" src="./assets/img/perc/bbox1.png">
+</div>
 
---- 
+### Procedure
 
-## Results
+- 2AFC (a) completed every Sunday (after assessment questionnaire) in quiet room
+- Participants instructed to choose which sound—'ba' or 'pa'—they thought they had heard as quickly and as accurately as possible using DirectIN rotary controller 
+- 'ba' and 'pa' appeared on screen as stimuli presented
+- Practice session of 6 trials
+- Stimuli from continuum presented 10 times (130 trials total) in 1 randomized block, ISI 500 ms. 
+- Approximately 10 minutes
+
+---
+
+## Method
+
+<div style="float:right">
+  $log\frac{p}{1-p} = \alpha + \beta_1X_1 + \beta_2X_2 + ... + \beta_pX_p$
+</div>
+
+### Analyses 
+
+1. Does LLs' perception of stops change over time?
+  - ```response ~ session + VOT```
+2. How do LLs compare with bilinguals?
+  - Data from LLs (session 7) and BI
+  - ```response ~ group * VOT```
+
+</br>
+
+- Contrast coefficient slopes: $\frac{\beta_0}{\beta_{VOT}} \times -1$
+- 50% crossover points: $(\beta_0 \div \beta_1 X_1) \times -1$
+
+---
 
 <div align="center">
-  <img width='900' src="./assets/img/perc/perc2log1.png">
+  <img width='1000' src="./assets/img/perc/perc1log1.png">
 </div>
+
+*** pnotes
+
+- The cross over point decreased by 0.66 ms ± 0.29 (se) in each session (t(9) = -2.23; p < 0.03)
+
+---
+
+<div align="center">
+  <img width='1000' src="./assets/img/perc/perc1log2.png">
+</div>
+
+*** pnotes
+
+- The crossover point did not vary as a function of group (p > 0.05)
 
 ---
 
 ## Summary of findings
 
-- one
-- two
+> - Does LLs' perception of stops change over time?
+  - LLs responded /pa/ more often at end of immersion program.
+  - In session 2 (after two weeks) responses significantly different from session 0.
+- How do LLs compare with bilinguals?
+  - At the end of the program their identification of the resynthesized continua is similar
+  - Analysis suggests they vary slightly, but not regarding the phoneme boundary
+  - Caution interpreting a null effect
+
+</br>
+
+> - **Can LLs shift between language-specific modes of perception?**
+
+--- .segue bg:black
+
+
+
+
+
+
+
+
+
+
+
+# Experiment 2
+</br></br></br></br></br></br></br></br></br></br></br>
+**Double perceptual boundaries in L2 learners?**
+
+---
+
+## Background
+
+### Bilingual Language Modes (Grosjean, 1998)
+
+>[...] state of activation of the bilingual's languages and language 
+> processing mechanisms at a given point in time (Grosjean, 2002)
+
+- Activation of languages increases/decreases as a function of communicative setting
+  - Bilingual mode: both languages activated
+  - Unilingual mode: one language activated
+- Are perceptual expectations affected by language mode?
+
+<p></p>
+
+### Language set experiments
+
+- 2AFC tasks given in different language environments
+- Finding: bilinguals have two perceptual boundaries depending on language expectations 
+
+---
+
+</br></br>
+
+<div align="center">
+  <img width='900' src="./assets/img/motivation/sp_en_stops.png">
+</div>
+
+---
+
+## Background
+
+<div style="float:right">
+  <img width='400' src="./assets/img/motivation/sp_en_stops.png">
+</div>
+
+### Gonzáles & Lotto (2013)
+
+- Language modes are induced via stimuli:
+  - 'Spanish' ba[fɾi]-pa[fɾi]
+  - 'English' ba[fɹi]-pa[fɹi]
+- Finding: Bilinguals have double perceptual boundary
+
+</br>
+
+> - **Do LLs have two perceptual boundaries depending on language expectations?**
+
+---
+
+## Method
+
+### Materials
+
+- Female simultaneous bilingual speaker
+  - ba/pa productions
+  - 'fri' [fɾi] and [fɹi] productions
+  - append lead voicing for /ba/, aspiration for /pa/ (Gonzales & Lotto, 2013)
+- Two 13-step continua (-60ms to 60ms, 10ms increments)
+  - 'Spanish' ba[fɾi]-pa[fɾi]
+  - 'English' ba[fɹi]-pa[fɹi]
+
+
+<p></p>
+
+*** {name: left}
+
+#### <div align="left">**English**: /ˈba.fɹi/ - /ˈpa.fɹi/</div>
+
+<audio controls>
+  <source src="./assets/img/perc/00_en_afri-60.ogg" type="audio/ogg">
+  <source src="./assets/img/perc/00_en_afri-60.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<audio controls>
+  <source src="./assets/img/perc/12_en_afri+60.ogg" type="audio/ogg">
+  <source src="./assets/img/perc/12_en_afri+60.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+*** {name: right}
+
+#### <div align="left"><BLUE>Spanish</BLUE>: /ˈba.fɾi/ - /ˈpa.fɾi/</div>
+
+<audio controls>
+  <source src="./assets/img/perc/00_sp_afri-60.ogg" type="audio/ogg">
+  <source src="./assets/img/perc/00_sp_afri-60.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<audio controls>
+  <source src="./assets/img/perc/12_sp_afri+60.ogg" type="audio/ogg">
+  <source src="./assets/img/perc/12_sp_afri+60.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+--- 
+
+## Method
+
+<div style="float:right">
+  <img width="60" height="1" src="./assets/img/fill.png">
+  <img width="250" src="./assets/img/perc/4_2afcB1.png"></br></br>
+  <img width="60" height="1" src="./assets/img/fill.png">
+  <img width="250" src="./assets/img/perc/4_2afcB2.png"></br></br>
+  <img width="60" height="1" src="./assets/img/fill.png">
+  <img width="250" src="./assets/img/perc/bbox1.png">
+</div>
+
+### Procedure
+
+- Participants completed two 2AFC identification tasks
+  - Session 1: Spanish - ba[fɾi]-pa[fɾi]
+  - Session 2: English (24 hrs later) - ba[fɹi]-pa[fɹi]
+- Language modes are induced via stimuli
+- Practice session of 6 trials
+- 10 repetitions (130 trials total) in 1 randomized block, ISI 500 ms
+- Approximately 12 minutes
+
+---
+
+## Method
+
+<div style="float:right">
+  $log\frac{p}{1-p} = \alpha + \beta_1X_1 + \beta_2X_2 + ... + \beta_pX_p$
+</div>
+
+### Analyses: GLMM
+
+<p></p>
+
+- Does perception of stops vary as a function of language/group?
+  - ```response ~ language * group * VOT```
+
+</br>
+
+- Contrast coefficient slopes: $\frac{\beta_0}{\beta_{VOT}} \times -1$
+- 50% crossover points: $(\beta_0 \div \beta_1 X_1) \times -1$
+
+---
+
+<div align="center">
+  <img width='1000' src="./assets/img/perc/perc2log1.png">
+</div>
+
+*** pnotes
+
+- English-like stimuli produced an overall change in the log odds of voiceless responses (i.e. `pafri') of -0.56 ± 0.12 se (*z* = -4.61; p < 0.001)
+- The results of the second experiment showed that both the LL and the bilingual groups had language-specific expectations with regard to the perception of English and Spanish stops. In other words, both groups shifted their perceptual boundaries as a function of the language they thought they had heard, despite the fact that the only difference between the stimuli involved was the realization of `r'.
+
+---
+
+## Summary of findings
+
+*** pnotes
+
+The results of the first experiment revealed that the LL group did indeed shift their perceptual boundary with increased exposure to Spanish. The analyses suggested that after a mere two weeks of exposure, LLs identified the resynthesized stimuli differently from how they identified the same stimuli two weeks prior. This finding is taken as evidence of the development of an L2-specific perceptual system. In this case, the contrast involved, \textipa{/b/-/p/}, was one that already existed in their L1. Thus the learning that took place revolved around the resetting of the perceptual boundary between the stops in this contrast. The analyses found that by the end of the 7-week immersion program, the perceptual boundary of the LL group was within the range of the control group of simultaneous bilinguals.
+
+The results of the second experiment showed that both the LL and the bilingual groups had language-specific expectations with regard to the perception of English and Spanish stops. In other words, both groups shifted their perceptual boundaries as a function of the language they thought they had heard, despite the fact that the only difference between the stimuli involved was the realization of `r'.
+
 
 --- .segue bg:grey
 
