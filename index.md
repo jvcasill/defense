@@ -1,9 +1,9 @@
 ---
 title       : The longitudinal development of fine-phonetic detail
-subtitle    : in late learners of Spanish Dissertation defense
+title2      : in late learners of Spanish 
+subtitle    : Dissertation defense
 author      : Joseph V. Casillas
-date        : 'May 11th, 2016'
-job         : University of Arizona
+job         : University of Arizona | May 11th, 2016
 framework   : io2012
 highlighter : highlight.js  
 hitheme     : tomorrow  
@@ -145,23 +145,17 @@ to category formation?
 6. What is the role of input with regard to accurately and efficiently acquiring a novel 
 speech sound?
 
---- .segue bg:lightblue
-
-<!-- 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-# Overview                  #
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~#
--->
+---
 
 ## Overview
 
 </br>
 
-1. Method
-2. Production
-3. Perception
-4. Production/perception interface
-5. Discussion/conclusion
+### 1. Method
+### 2. Production
+### 3. Perception
+### 4. Production/perception interface
+### 5. Discussion/conclusion
 
 --- .segue bg:grey
 
@@ -170,12 +164,6 @@ speech sound?
 
 
 
-<!-- 
-L2 learners tend to produce VOT values somewhere between monolingual averages (e.g., Caramazza et al. 1973; Flege, 1987)
-Early learners shift between language specific perceptual systems (Gonzales & Lotto, 2013)
-LLs VOT production and perception can become more native-like in a 16 week semester (Zampini, 1998; 2001)
-Production shifts occurred before perceptual boundary shifts.
- -->
 
 
 
@@ -1806,18 +1794,28 @@ Distractors
 *** pnotes
 
 - English-like stimuli produced an overall change in the log odds of voiceless responses (i.e. `pafri') of -0.56 ± 0.12 se (*z* = -4.61; p < 0.001)
-- The results of the second experiment showed that both the LL and the bilingual groups had language-specific expectations with regard to the perception of English and Spanish stops. In other words, both groups shifted their perceptual boundaries as a function of the language they thought they had heard, despite the fact that the only difference between the stimuli involved was the realization of `r'.
 
 ---
 
 ## Summary of findings
 
+### 2AFC (a)
+
+- LLs group shifted their perceptual boundary after two weeks of exposure to Spanish (low L1 use/high TL use/input)
+- Evidence for development of an L2-specific perceptual system/resetting of the perceptual boundary
+- By the end of the 7-week immersion program, the perceptual boundary of the LL group was within the range of BI
+
+### 2AFC (b)
+
+- LL and BI groups had language-specific expectations for stop perception
+- Both groups shifted their perceptual boundaries as a function of the language they thought they had heard
+  - only difference between the stimuli was the realization of 'r'
+
 *** pnotes
 
-The results of the first experiment revealed that the LL group did indeed shift their perceptual boundary with increased exposure to Spanish. The analyses suggested that after a mere two weeks of exposure, LLs identified the resynthesized stimuli differently from how they identified the same stimuli two weeks prior. This finding is taken as evidence of the development of an L2-specific perceptual system. In this case, the contrast involved, \textipa{/b/-/p/}, was one that already existed in their L1. Thus the learning that took place revolved around the resetting of the perceptual boundary between the stops in this contrast. The analyses found that by the end of the 7-week immersion program, the perceptual boundary of the LL group was within the range of the control group of simultaneous bilinguals.
-
-The results of the second experiment showed that both the LL and the bilingual groups had language-specific expectations with regard to the perception of English and Spanish stops. In other words, both groups shifted their perceptual boundaries as a function of the language they thought they had heard, despite the fact that the only difference between the stimuli involved was the realization of `r'.
-
+- replicates Gonz & Lotto 
+  - with bilinguals (w/in subj design)
+  - extends findings to L2 learners
 
 --- .segue bg:grey
 
@@ -1875,13 +1873,35 @@ The results of the second experiment showed that both the LL and the bilingual g
 
 
 
-# Production and perception
+# Production/perception interface
 
 <!-- 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # Prod/perc                 #
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 -->
+
+---
+
+## Background
+
+- chicken or the egg?
+
+---
+
+## Escudero (2006)
+
+>[...] these findings can be contested on the basis of a 
+> number of methodological shortcomings such as the controlled nature of 
+> the production tasks and the articulatory training undergone by the 
+> learners, which elicit highly monitored and unnatural L2 productions, 
+> as well as the problematic nature of their data analyses. Furthermore, 
+> most of these studies report on perceptual findings that were conducted 
+> within a bilingual language setting, which, according to psycholinguistic 
+> evidence [...], results in the activation of two languages and, consequently, 
+> in performance patterns intermediate between speaker's L1 and L2 that 
+> would have not been found had the learners been in a monolingual L2 
+> setting (p. 111).
 
 ---
 
@@ -1977,24 +1997,57 @@ The results of the second experiment showed that both the LL and the bilingual g
 
 ---
 
-## Summary of findings
+## Summary of main findings
 
-- one
-- two 
+- adult learners modify their perception of stops after limited exposure to the TL by adopting language-specific perceptual strategies. 
+- evidence suggesting that adult learners can develop an L2 perceptual system, and may be capable of switching between this newly developed system and that of their L1 in a manner similar to that of native bilinguals.
+
 
 ---
 
-## Discussion
+## Longitudinal development of phonetic categories
 
 - one 
 - two 
 
 ---
 
-## Conclusion
+## Early L2 representations
+
+- one 
+- two
+
+---
+
+## Learning context effects
+
+- one 
+- two 
+
+---
+
+## Second language acquisition and teaching
 
 - one
-- two 
+- two
+
+---
+
+## Limitations of the current work and future research
+
+- one
+- two
+
+---
+
+## Conclusion
+
+- The present investigation analyzed early second language learning in adults. 
+- The studies undertaken for this work regarding the ongoing development of the
+fine-phonetic detail of Spanish stop voicing add to our understanding of the 
+acquisition of L2 phonology in adult learners. 
+- The longitudinal data suggest that L2 phonetic category formation is abrupt, occurs at an early stage of development, and is perceptually driven. 
+- Moreover, early L2 representations are fragile, and especially susceptible to cross-language interference.
 
 --- &twocol
 
