@@ -59,6 +59,11 @@ attainment is difficult/uncommon
   - Early sequential bilinguals (Pallier, Bosch, & Sebastián-Gallés, 1997; Sebastián-Gallés, Echeverría, & Bosch, 2005, among others)
 - Grim outlook for most late learners (with exceptions) if native-like ultimate attainment is goal
 
+### L2 learning models
+
+- SLM
+- L2LP
+
 ---
 
 ## Introduction
@@ -123,10 +128,17 @@ g/ in order to produce and perceive the Spanish stop contrasts accurately
 
 ## Introduction
 
-### At-home, SA
+### Traditional classroom 
 
-- Zampini (1998, 2001)
-- Stevens (20XX)
+- Advantages
+- L2 phonology?
+  - Zampini (1998, 2001)
+
+### Study abroad
+
+- Advantages
+- L2 phonology
+  - Stevens (20XX)
 
 ---
 
@@ -134,7 +146,7 @@ g/ in order to produce and perceive the Spanish stop contrasts accurately
 
 ### Research Questions
 
->1. Do late learners produce and **perceive** the fine phonetic detail of Spanish stops after a short-term immersion program?
+>1. Do late learners produce and perceive the fine phonetic detail of Spanish stops after a short-term immersion program?
 2. At what point during the learning process do late learners begin to acquire a new, 
 language-specific phonetic system? How much exposure is necessary for the acquisition 
 of L2 fine phonetic detail?
@@ -700,8 +712,8 @@ Distractors
 
 ---
 
-<div style="float:right">
-  <img width='650' src="./assets/img/prod/prod2Scatter.png">
+<div style="float:left">
+  <img width='900' src="./assets/img/prod/prod2Scatter.png">
 </div>
 
 ---
@@ -1169,11 +1181,37 @@ Distractors
 
 ## Background
 
-- chicken or the egg?
+> - Major theories of speech perception posit a relationship between perception and production
+  - L1 acquisition (DRT, MT, GA) 
+  - L2 acquisition (SLM, PAM-L2, NLM, L2LP)
+- Chicken or the egg?
+- **Perception precedes production in L2 learning**\*
+  - Default assumption for most models
+  - L2 phonetic segments are "[...] produced only as accurately as they are perceived" (Flege, 2003, p. 25).
+
+</br></br></br>
+#### \*Williams, 1979; Borden, 1983; Neufeld, 1988; Barry, 1989; Grasseger, 1991; Flege, 1993; Rochet, 1995; Llisterri, 1995; Flege, 1997; Leather, 1999
+
+---
+
+## Background
+
+- Major theories of speech perception posit a relationship between perception and production
+  - L1 acquisition (DRT, MT, GA) 
+  - L2 acquisition (SLM, PAM-L2, NLM, L2LP)
+- Chicken or the egg?
+- **Production precedes perception in L2 learning**\*
+  - Some L2 learners have poor discrimination and accurate production
+  - May be due to focus on pronunciation in L2 classroom
+
+</br></br></br></br>
+#### \*Goto, 1971; Caramazza, 1973; Sheldon, 1982; Mack, 1989; Mathews, 1997; Leather, 1997; Wang, 2002; Kissling, 2014
 
 ---
 
 ## Escudero (2006)
+
+</br>
 
 >[...] these findings can be contested on the basis of a 
 > number of methodological shortcomings such as the controlled nature of 
@@ -1191,36 +1229,69 @@ Distractors
 
 ## Overview
 
-- one 
-- two 
+### Goals 
+
+- Examine the production/perception relationship in adult L2 learners
+  - Determine if there was a correlation between production gains and perceptual boundary shifts in LL group
+  - Determine if perceptual learning preceded accurate production or *vice versa*
+
+### Data
+
+- Longitudinal production data and perception data analyzed together
+  - Production: VOT from bilabial stops (7 sessions)
+  - Perception: phoneme boundary from 2AFC (a) (8 sessions)
+
+### Issues
+
+- Data are unbalanced
+- What is a production boundary?
 
 ---
 
 ## Method
 
-- one
-- two
+<div style="float:right">
+    $CO =  \frac{\beta_0}{\beta_{VOT}} \times -1$
+</div>
+
+### Metrics
+
+- Phoneme boundaries
+  - Production: mean VOT value for bilabial stops
+  - Perception: crossover point from GLMM
+
+### Analyses
+
+1. Are production and perception related in L2 learners?
+  - Correlation (descriptive)
+2. In which modality does learning occur first?
+  - 2 GLMs
+  - Treatment coding (session 0 = reference)
+  - Replicates production exp 1 and perception exp 1 with different DV
+  - ```boundary ~ session```
 
 ---
 
-## Results
-
 <div align="center">
-  <img width='900' src="./assets/img/prodperc/prodpercglmm.png">
+  <img width='1000' src="./assets/img/prodperc/prodpercglmm.png">
 </div>
 
---- &twocol2 w1:40% w2:60%
+*** pnotes
 
-*** {name: left}
+- production boundary different from initial state after session 4 (week 3)
+- Perception boundary different from initial state after session 3 (week 2)
+- corroborates Exp 1 from prod/perc
+- suggests perceptual learning occurred before production gains for bilabial stops
 
-- One 
-- two
+--- 
 
-*** {name: right}
-
-<div align="center">
-  <img width='600' src="./assets/img/prodperc/prodpercScatter.png">
+<div style="float:left">
+  <img width='900' src="./assets/img/prodperc/prodpercScatter2.png">
 </div>
+
+*** pnotes
+
+- as production boundary decreases over time, so does the perceptual boundary
 
 --- .segue bg:grey
 
@@ -1281,55 +1352,129 @@ Distractors
 
 ---
 
-## Summary of main findings
+## Summary of findings
 
-- adult learners modify their perception of stops after limited exposure to the TL by adopting language-specific perceptual strategies. 
-- evidence suggesting that adult learners can develop an L2 perceptual system, and may be capable of switching between this newly developed system and that of their L1 in a manner similar to that of native bilinguals.
+### Assessment
 
+- LL group used English minimally and Spanish almost exclusively. 
+- TL input mainly from native speakers or non-native speakers with high levels of proficiency in Spanish. 
+- Listening, speaking, and overall abilities in Spanish improved over the course of the program.
 
----
+### Production
 
-## Longitudinal development of phonetic categories
-
-- one 
-- two 
-
----
-
-## Early L2 representations
-
-- one 
-- two
+- VOT values changed over course of program
+  - Produce voiceless short-lag stops for bilabials and coronals 
+  - Incorporate pre-voicing into their production of voiced stops
+- Only /p, t/ within native range
+- Production gains offset by semantic processing
 
 ---
 
-## Learning context effects
+## Summary of findings (cont.)
 
-- one 
-- two 
+### Perception
+
+- LLs modify their perception of stops after limited exposure to the TL by adopting language-specific perceptual strategies
+- By the end of the program, LLs have language-specific expectations used for stop identification (double perceptual boundary)
+
+### Production/perception interface
+
+- Two modalities showed a decrease, or shift, in the phonetic category boundaries as exposure to and use of Spanish increased
+- Perceptual boundary shifts occurred one session prior to the production boundary shifts
+- Suggests that production and perception related in the beginning stages of L2 learning, and that phonetic learning is perceptually driven
 
 ---
 
-## Second language acquisition and teaching
+## Discussion
 
-- one
-- two
+### Longitudinal development of phonetic categories
+
+- L2 phonetic category formation appears to occur **abruptly** and at an **early** stage of L2 learning, at least for stops. 
+- The initial changes then continue gradually as exposure and use of the target language increase.
+
+*** pnotes
+
+- parallel findings in Zampini (1998) for /b, p/
+  - also saw improvement in prod/perc over course of semester
+  - not clear if due to L2 use/input or explicit instruction regarding artic.
+- corroborates research by Stevens (2001) for /p, t, k/
+  - improvement over course of SA program, longer stay = better results
+  - pre/post test design, so not clear when learning occurs
+- Corroborates Williams (1979) re perceptual boundary shifts
+  - learning occurs at early stage in development of PR children
 
 ---
 
-## Limitations of the current work and future research
+## Discussion
 
-- one
-- two
+### Early L2 representations
+
+- Evidence suggesting that adult learners can develop an L2 perceptual system and may be capable of switching between this newly developed system and that of their L1 in a manner similar to that of native bilinguals.
+- Initial gains in early stages of L2 learning are **fragile**, particularly sensitive to cross-language interference
+- Cross-language interference may diminish as proficiency in TL increases
+
+*** pnotes
+
+- Extends results of Gonzales & Lotto (2013) to L2 learners
+- Corroborates findings from Gustafson (2013)
+  - semantic processing affects phonetic processing
+  - CLI may diminish as proficiency increases
+
+---
+
+## Discussion
+
+### Learning context effects
+
+- <blue>Traditional classroom</blue>
+  - grammatical structure, morphosyntactic control
+  - phonetic category development w/ explicit instruction
+- **Study abroad</blue>**
+  - oral proficiency, oral fluency, cognitive abilities
+  - phonetic category development w/o explicit instruction
+
+<p></p>
+
+> - Domestic immersion
+  - Same benefits as foreign immersion regarding L2 phonological acquisition
+  - High input (different from SA?)
+  - Advantage due to required TL use?
+
+*** pnotes
+
+- Best of both worlds?
+
+---
+
+## Discussion
+
+### Second language acquisition and teaching
+
+- TL use may be key in maximizing positive L2 outcomes related to accurate production and perception
+- Present findings help inform language teachers regarding decisions related to balancing L1 and L2 use in the classroom
+
+---
+
+## Discussion
+
+### Future research
+
+- Phonetic drift?
+- Extend to other speech segments
+  - Spirantization (new allophonic distribution for L1 contrast)
+  - Trills (altogether new phoneme)
+- Replicate in L2 classroom and study abroad contexts
+  - effects of L1/L2 use
+  - relative importance of different types of TL input
 
 ---
 
 ## Conclusion
 
-- The present investigation analyzed early second language learning in adults. 
+- The present investigation analyzed early second language learning in adults
 - The studies undertaken for this work regarding the ongoing development of the
 fine-phonetic detail of Spanish stop voicing add to our understanding of the 
-acquisition of L2 phonology in adult learners. 
+acquisition of L2 phonology in adult learners
 - The longitudinal data suggest that L2 phonetic category formation is abrupt, occurs at an early stage of development, and is perceptually driven. 
 - Moreover, early L2 representations are fragile, and especially susceptible to cross-language interference.
 
