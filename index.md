@@ -26,7 +26,6 @@ csl         : "./assets/bib/apa.csl"
 ### Motivation
 
 - Explore *what* and *how much* adults are capable of learning in optimal conditions 
-context.
 - Explore relationship between production/perception in early stages of L2 acquisition
 - Explore how L2 categories develop over time
 
@@ -44,7 +43,7 @@ context.
 Flege et al., 1997; Pallier et al., 1997; Sebastián-Gallés & Soto-Faraco, 1999; 
 among many others)
 - Non-native accent retained, often after years of exposure to (and use of) L2
-- Infants become 'attuned' to L1 sounds within first year of life (Bosch & Sebastián-Gallés, 2003; Kuhl et al., 1992)
+- Infants become 'attuned' to L1 sounds within first year of life (Bosch & Sebastián-Gallés, 2003; Kuhl et al., 1992, Werker & Tees, 1984)
 - **Earlier is better**
 
 ---
@@ -53,16 +52,11 @@ among many others)
 
 ### Late learners
 
->- L1/L2 cross-language interaction research suggests that native-like L2 ultimate 
+>- Cross-linguistic influence research suggests that native-like L2 ultimate 
 attainment is difficult/uncommon
   - For both production/perception
   - Early sequential bilinguals (Pallier, Bosch, & Sebastián-Gallés, 1997; Sebastián-Gallés, Echeverría, & Bosch, 2005, among others)
 - Grim outlook for most late learners (with exceptions) if native-like ultimate attainment is goal
-
-### L2 learning models
-
-- SLM
-- L2LP
 
 ---
 
@@ -80,6 +74,30 @@ attainment is difficult/uncommon
   - LOR
   - Access to native input
   - **L1**/**L2 use**
+
+---
+
+## Introduction
+
+### L2 learning models
+
+> - Speech Learning Model (SLM, Flege, 1995)
+  - L1/L2 share same phonetic space, interact with each other
+  - Novel sounds perceived based on approximations to native sounds
+- Second Language Linguistic Perception Model (L2LP, Escudero, 2005)
+  - L2 is copy of L1
+  - Develops independently via GLA
+
+</br>
+
+> - <blue>Both models maintain that learning is possible in adults</blue>
+- <blue>Strong production/perception link</blue>
+
+*** pnotes
+
+- SLM deals with segments
+- L2LP deals with contrasts
+  - new scenario (new category formation), similar scenario (boundary resetting)
 
 ---
 
@@ -130,15 +148,21 @@ g/ in order to produce and perceive the Spanish stop contrasts accurately
 
 ### Traditional classroom 
 
-- Advantages
+- Advantages: grammatical structure, morphosyntactic control^1
 - L2 phonology?
-  - Zampini (1998, 2001)
+  - Phonetic category development w/ explicit instruction (Zampini, 1998; 2001)
 
 ### Study abroad
 
-- Advantages
-- L2 phonology
-  - Stevens (20XX)
+- Advantages: oral proficiency, oral fluency, cognitive abilities^2
+- L2 phonology?
+  - Phonetic category development w/o explicit instruction (Stevens, 2001)
+
+</br></br>
+
+#### ^1 Collentine, 2004; Freed, 2004; DeKeyser, 1986  
+
+#### ^2 Segalowitz, 2004a, b; García Amaya, 2012; Llanes, 2012; Lord, 2006
 
 ---
 
@@ -146,7 +170,7 @@ g/ in order to produce and perceive the Spanish stop contrasts accurately
 
 ### Research Questions
 
->1. Do late learners produce and perceive the fine phonetic detail of Spanish stops after a short-term immersion program?
+>1. Do late learners produce and perceive the fine phonetic detail of Spanish stops after a short-term domestic immersion program?
 2. At what point during the learning process do late learners begin to acquire a new, 
 language-specific phonetic system? How much exposure is necessary for the acquisition 
 of L2 fine phonetic detail?
@@ -257,7 +281,7 @@ speech sound?
 - Completed a demographic questionnaire describing their previous experience with Spanish.
 - More than the equivalent of one semester of Spanish = excluded
 - From all over the United States 
-- Participated in 7-week at-home immersion Spanish program that took place during the Summer at a U.S. college campus. 
+- Participated in 7-week domestic immersion Spanish program
 
 ---
 
@@ -307,14 +331,14 @@ speech sound?
 <div align="center">
 
 <!-- MotionChart generated in R 3.2.4 by googleVis 0.5.10 package -->
-<!-- Tue May  3 16:51:48 2016 -->
+<!-- Sun May  8 21:06:03 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID47ac48f1be21 () {
+function gvisDataMotionChartID5c78a5c0a2f () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -538,15 +562,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID47ac48f1be21() {
-var data = gvisDataMotionChartID47ac48f1be21();
+function drawChartMotionChartID5c78a5c0a2f() {
+var data = gvisDataMotionChartID5c78a5c0a2f();
 var options = {};
 options["width"] =   1000;
 options["height"] =    600;
-options["state"] = "";
+options["state"] = "\n{\"time\":\"2015-06-25\",\"sizeOption\":\"_UNISIZE\",\"duration\":{\"timeUnit\":\"D\",\"multiplier\":1},\"orderedByX\":true,\"iconType\":\"VBAR\",\"xZoomedIn\":false,\"yZoomedDataMax\":100,\"orderedByY\":false,\"yZoomedIn\":false,\"xLambda\":1,\"showTrails\":false,\"nonSelectedAlpha\":0.4,\"xAxisOption\":\"_ALPHABETICAL\",\"yZoomedDataMin\":0,\"uniColorForNonSelected\":false,\"colorOption\":\"_UNIQUE_COLOR\",\"dimensions\":{\"iconDimensions\":[\"dim0\"]},\"playDuration\":15000,\"yLambda\":1,\"xZoomedDataMin\":0,\"xZoomedDataMax\":5,\"yAxisOption\":\"3\",\"iconKeySettings\":[{\"key\":{\"dim0\":\"speak\"}},{\"key\":{\"dim0\":\"overall\"}},{\"key\":{\"dim0\":\"useEng\"}},{\"key\":{\"dim0\":\"understand\"}},{\"key\":{\"dim0\":\"useSpan\"}}]}\n";
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID47ac48f1be21')
+    document.getElementById('MotionChartID5c78a5c0a2f')
     );
     chart.draw(data,options);
     
@@ -570,9 +594,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID47ac48f1be21);
+callbacks.push(drawChartMotionChartID5c78a5c0a2f);
 })();
-function displayChartMotionChartID47ac48f1be21() {
+function displayChartMotionChartID5c78a5c0a2f() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -596,11 +620,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID47ac48f1be21"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID5c78a5c0a2f"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID47ac48f1be21" 
+<div id="MotionChartID5c78a5c0a2f" 
   style="width: 1000; height: 600;">
 </div>
 
@@ -631,8 +655,8 @@ callbacks.shift()();
     - attitudes (4 questions)
 - Responses are numeric
     - score assigned to each language
-        - Negative values = dominant in Spanish 
-        - Positive values = dominant in English
+        - Negative values = dominant in English 
+        - Positive values = dominant in Spanish
         - Values close to 0 indicate balanced bilingualism 
         (mean = **7.63**; SD = **19.07**)
 
@@ -654,8 +678,8 @@ callbacks.shift()();
   - 2AFC (a): ba/pa administered weekly
   - 2AFC (b): bafri/pafri administered post program in two sessions
 - Metrics
-  - **Response accuracy**
   - **VOT**
+  - Response accuracy
   - burst properties
   - vowel formants
 
@@ -822,14 +846,14 @@ immersion program?
 <div align="center">
 
 <!-- MotionChart generated in R 3.2.4 by googleVis 0.5.10 package -->
-<!-- Tue May  3 16:41:56 2016 -->
+<!-- Sun May  8 21:07:52 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID47ac9622f47 () {
+function gvisDataMotionChartID5c78e491b0e () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1224,15 +1248,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID47ac9622f47() {
-var data = gvisDataMotionChartID47ac9622f47();
+function drawChartMotionChartID5c78e491b0e() {
+var data = gvisDataMotionChartID5c78e491b0e();
 var options = {};
 options["width"] =   1000;
 options["height"] =    600;
-options["state"] = "\n{\"yAxisOption\":\"6\",\"colorOption\":\"3\",\"dimensions\":{\"iconDimensions\":[\"dim0\"]}}\n";
+options["state"] = "\n{\"time\":\"2015-06-25\",\"dimensions\":{\"iconDimensions\":[\"dim0\"]},\"playDuration\":15000,\"yLambda\":1,\"orderedByY\":false,\"xZoomedDataMax\":6,\"orderedByX\":false,\"iconKeySettings\":[{\"trailStart\":\"2015-06-25\",\"key\":{\"dim0\":\"t\"}},{\"trailStart\":\"2015-06-25\",\"key\":{\"dim0\":\"b\"}},{\"trailStart\":\"2015-06-25\",\"key\":{\"dim0\":\"g\"}},{\"trailStart\":\"2015-06-25\",\"key\":{\"dim0\":\"k\"}},{\"trailStart\":\"2015-06-25\",\"key\":{\"dim0\":\"p\"}},{\"trailStart\":\"2015-06-25\",\"key\":{\"dim0\":\"d\"}}],\"duration\":{\"multiplier\":1,\"timeUnit\":\"D\"},\"sizeOption\":\"6\",\"xAxisOption\":\"4\",\"iconType\":\"BUBBLE\",\"xZoomedIn\":false,\"yZoomedDataMax\":50.32826667,\"yZoomedIn\":false,\"xLambda\":1,\"colorOption\":\"3\",\"nonSelectedAlpha\":0.4,\"yAxisOption\":\"6\",\"xZoomedDataMin\":0,\"yZoomedDataMin\":-24.94806667,\"showTrails\":true,\"uniColorForNonSelected\":false}\n";
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID47ac9622f47')
+    document.getElementById('MotionChartID5c78e491b0e')
     );
     chart.draw(data,options);
     
@@ -1256,9 +1280,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID47ac9622f47);
+callbacks.push(drawChartMotionChartID5c78e491b0e);
 })();
-function displayChartMotionChartID47ac9622f47() {
+function displayChartMotionChartID5c78e491b0e() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1282,11 +1306,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID47ac9622f47"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID5c78e491b0e"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID47ac9622f47" 
+<div id="MotionChartID5c78e491b0e" 
   style="width: 1000; height: 600;">
 </div>
 
@@ -1295,11 +1319,12 @@ callbacks.shift()();
 ---
 
 <div align="center">
-  <img width='900' src="./assets/img/prod/prod1glmm3comp.png">
+  <img width='1000' src="./assets/img/prod/prod1glmm3comp.png">
 </div>
 
-</br>
-> - Voiced segments clearly different, despite showing largest rate of change. 
+*** pnotes
+
+- Voiced segments clearly different, despite showing largest rate of change. 
 - The voiceless stops were more native like, at least with regard to VOT.
 
 ---
@@ -1333,7 +1358,7 @@ callbacks.shift()();
 ## Background
 
 - Semantic processing can affect production in L2 learners (Gustafson et al., 2013)
-- Phonetic processing ('planning, programming, and execution of articulation') is susceptible to cross-linguistic interference because semantic processing activates L1 representations
+- Phonetic processing ('planning, programming, and execution of articulation') is susceptible to cross-linguistic influence because semantic processing activates L1 representations
 - **Does semantic processing affect the production gains observed in the LL group?**
 
 ---
@@ -1411,17 +1436,20 @@ Distractors
 ---
 
 <div align="center">
-  <img width='850' src="./assets/img/prod/prod2glmm1.png">
+  <img width='900' src="./assets/img/prod/prod2glmm1.png">
 </div>
 
 ---
+
+</br></br>
 
 <div align="center">
   <img width='850' src="./assets/img/prod/prod2te.png">
 </div>
 
+*** pnotes
 
-> - Bilinguals unaffected by semantic processing
+- Bilinguals unaffected by semantic processing
 - LL affected by semantic processing
   - mainly in voiceless stops
   - voiced stops have longer range (CLI = pre-voiced stops produced with short-lag VOT)
@@ -1437,7 +1465,7 @@ Distractors
 ## Summary of findings
 
 - The LL group, but not the bilingual group, was affected by semantic processing
-- L2 representations are fragile and susceptible to CLI during early stages of phonetic category formation
+- L2 representations are susceptible to CLI during early stages of phonetic category formation
 
 --- .segue bg:grey
 
@@ -1594,6 +1622,8 @@ Distractors
 
 ### Analyses 
 
+<p></p>
+
 1. Does LLs' perception of stops change over time?
   - ```response ~ session + VOT```
 2. How do LLs compare with bilinguals?
@@ -1607,8 +1637,10 @@ Distractors
 
 ---
 
+</br></br>
+
 <div align="center">
-  <img width='1000' src="./assets/img/perc/perc1log1.png">
+  <img width='1100' src="./assets/img/perc/perc1log1.png">
 </div>
 
 *** pnotes
@@ -1617,8 +1649,10 @@ Distractors
 
 ---
 
+</br></br>
+
 <div align="center">
-  <img width='1000' src="./assets/img/perc/perc1log2.png">
+  <img width='1100' src="./assets/img/perc/perc1log2.png">
 </div>
 
 *** pnotes
@@ -1705,7 +1739,7 @@ Distractors
 
 > - **Do LLs have two perceptual boundaries depending on language expectations?**
 
----
+--- &twocol
 
 ## Method
 
@@ -1799,8 +1833,10 @@ Distractors
 
 ---
 
+</br></br>
+
 <div align="center">
-  <img width='1000' src="./assets/img/perc/perc2log1.png">
+  <img width='1100' src="./assets/img/perc/perc2log1.png">
 </div>
 
 *** pnotes
@@ -1988,8 +2024,10 @@ Distractors
 
 ---
 
+</br>
+
 <div align="center">
-  <img width='1000' src="./assets/img/prodperc/prodpercglmm.png">
+  <img width='900' src="./assets/img/prodperc/prodpercglmm.png">
 </div>
 
 *** pnotes
@@ -2076,6 +2114,8 @@ Distractors
 - TL input mainly from native speakers or non-native speakers with high levels of proficiency in Spanish. 
 - Listening, speaking, and overall abilities in Spanish improved over the course of the program.
 
+</br>
+
 ### Production
 
 - VOT values changed over course of program
@@ -2092,6 +2132,8 @@ Distractors
 
 - LLs modify their perception of stops after limited exposure to the TL by adopting language-specific perceptual strategies
 - By the end of the program, LLs have language-specific expectations used for stop identification (double perceptual boundary)
+
+</br>
 
 ### Production/perception interface
 
@@ -2126,8 +2168,8 @@ Distractors
 ### Early L2 representations
 
 - Evidence suggesting that adult learners can develop an L2 perceptual system and may be capable of switching between this newly developed system and that of their L1 in a manner similar to that of native bilinguals.
-- Initial gains in early stages of L2 learning are **fragile**, particularly sensitive to cross-language interference
-- Cross-language interference may diminish as proficiency in TL increases
+- Initial gains in early stages of L2 learning are **fragile**, particularly sensitive to cross-linguistic influence
+- Cross-linguistic influence may diminish as proficiency in TL increases
 
 *** pnotes
 
@@ -2188,11 +2230,9 @@ Distractors
 ## Conclusion
 
 - The present investigation analyzed early second language learning in adults
-- The studies undertaken for this work regarding the ongoing development of the
-fine-phonetic detail of Spanish stop voicing add to our understanding of the 
-acquisition of L2 phonology in adult learners
-- The longitudinal data suggest that L2 phonetic category formation is abrupt, occurs at an early stage of development, and is perceptually driven. 
-- Moreover, early L2 representations are fragile, and especially susceptible to cross-language interference.
+- Contributes to our understanding of the acquisition of L2 phonology in adult learners
+- The longitudinal data suggest that L2 phonetic category formation is abrupt, occurs at an early stage of development, and is perceptually driven
+- Early L2 representations are fragile, and especially susceptible to cross-linguistic influence
 
 --- &twocol
 
@@ -2269,9 +2309,87 @@ GPSC Research and Project Grant </br></br>
 
 ## References
 
-- refs
+- Aoyama, K., Flege, J. E., Guion, S. G., Akahane-Yamada, R., & Yamada, T. (2004). Perceived phonetic dissimilarity and L2 speech learning: the case of Japanese /r/ and English /l/ and /r/. Journal of Phonetics, 32(2), 233–250.
+- Best, C. T. (1995). A Direct Realist View of Cross-Language Speech Perception. In W. Strange (Ed.), Speech perception and linguistic experience: Issues in cross language research (pp. 171–204).
+- Best, C. T., & Tyler, M. D. (2007). Nonnative and second-language speech perception. Amsterdam: John Benjamins Publishing Company.
+- Bosch, L., & Ramon-Casas, M. (2011). Variability in vowel production by bilingual speakers: can input properties hinder the early stabilization of contrastive categories? Journal of Phonetics, 39(4), 514–526.
+- Escudero, P., Benders, T., & Lipski, S. C. (2009). Native, non-native and L2 perceptual cue weighting for Dutch vowels: the case of Dutch, German, and Spanish listeners. Journal of Phonetics, 37(4), 452–465.
+
+---
+
+## References II
+
+- Flege, J. E. (1995). Second language speech learning: Theory, findings, and problems. In W. Strange (Ed.), Speech perception and linguistic experience issues in cross-language research (pp. 229–273). Timonium, MD: York Press.
+- Flege, J. E. (2012). The role of input in second language (L2) speech learning. In 11th international conference on native and non-native accents of english. Lodz, Poland.
+- Flege, J. E., & MacKay, I. R. A. (2004). Perceiving vowels in a second language. Studies in Second Language Acquisition, 26(1), 1–34.
+- Flege, J. E., Bohn, O.-S., & Jang, S. (1997). Effects of experience on non-native speakers’ production and perception of English vowels. Journal of Phonetics, 25(4), 437–470.
+- Flege, J. E., MacKay, I. R. A., & Meador, D. (1999). Native Italian speakers’ perception and production of English vowels. The Journal of the Acoustical Society of America, 106(5), 2973–2987.
+
+---
+
+## References III
+
+- Kondaurova, M. V., & Francis, A. L. (2008). The relationship between native allophonic experience with vowel duration and perception of the English tense/lax vowel contrast by Spanish and Russian listeners. The Journal of the Acoustical Society of America, 124(6), 3959–3971.
+- Kondaurova, M. V., & Francis, A. L. (2010). The role of selective attention in the acquisition of English tense and lax vowels by native Spanish listeners: comparison of three training methods. Journal of Phonetics, 38(4), 569–587.
+- Kuhl, P. K., Stevens, E., Hayashi, A., Deguchi, T., Kiritani, S., & Iverson, P. (2006). Infants show a facilitation effect for native language phonetic perception between 6 and 12 months. Developmental Science, 9(2), F13–F21.
+- Kuhl, P. K., Williams, K. A., Lacerda, F., Stevens, K. N., & Lindblom, B. (1992). Linguistic experience alters phonetic perception in infants by 6 months of age. Science, 255(5044), 606–608.
+- Lado, R. (1964). Languge teaching: a scientific approach. New York: McGraw Hill. Lenneberg, E. H. (1967). Biological foundations of language. New York: Wiley.
+
+---
+
+## References IV
+
+- Lisker, L., & Abramson, A. S. (1964). A Cross-language Study of Voicing in Initial Stops: Acoustical Measurements. Word, 20.3, 384–422.
+- Morrison, G. S. (2008). L1-Spanish speakers’ acquisition of the english /i/-/I/ contrast: duration-based perception is not the initial developmental stage. Language and Speech, 51(4), 285–315.
+- Morrison, G. S. (2009). L1-Spanish speakers’ acquisition of the English /i/-/I/ contrast ii: perception of vowel inherent spectral change. Language and Speech, 52(4), 437–462.
+- Pallier, C., Bosch, L., & Sebastián-Gallés, N. (1997). A limit on behavioral plasticity in speech perception. Cognition, 64(3), B9–17.
+20
+- Piske, T., Flege, J. E., MacKay, I. R. A., & Meador, D. (2002). The production of English vowels by fluent early and late Italian-English bilinguals. Phonetica, 59(1), 49–71.
+- Sebastián-Gallés, N. (2006). Native-language sensitivities: evolution in the first year of life. Trends in Cognitive Sciences, 10(6), 239–241.
+
+---
+
+## References V
+
+- Sebastián-Gallés, N., & Soto-Faraco, S. (1999). Online processing of native and non-native phonemic contrasts in early bilinguals. Cognition, 72(2), 111–123.
+- Sebastián-Gallés, N., Echeverría, S., & Bosch, L. (2005). The influence of initial exposure on lexical representation: comparing early and simultaneous bilinguals. Journal of Memory and Language, 52(2), 240–255.
+- Simonet, M. (2011). Production of a Catalan-specific vowel contrast by early Spanish-Catalan bilinguals. Phonetica, 68(1-2), 88–110.
+- Strange, W. (2011). Automatic selective perception (ASP) of first and second language speech: A working model. Journal of Phonetics, 39(4), 456–466.
+- Strange, W., & Shafer, V. L. (2008). Speech perception in second language learners: the re-education of selective perception. In Phonology and second language acquisition (pp. 153–186). Phonology; Second Language Acquisition.
+- Sundara, M., Polka, L., & Baum, S. (2006). Production of coronal stops by simultaneous bilingual adults. Bilingualism: Language and Cognition, 9(01), 97–114.
+
+---
+
+## References VI
+
+- Sundara, M., Polka, L., & Genesee, F. (2006). Language-experience facilitates discrimination of /d-/ in monolingual and bilingual acquisition of English. Cognition, 100(2), 369–388.
+- Valdés, G. (2000a). Introduction. In *Spanish for native speakers*. AATSP professional development 
+series handbook for teachers K-16, VOlume 1 (pp. 1-20). New York: Harcourt College.
+- Valdés, G. (2000b). Teaching heritage languages: An introduction for Slavic-language-teaching 
+professionals. In O. Kagen & B. Rifkin (Eds.), *Learning and teaching of Slavic languages 
+and cultures: Toward the 21st century (pp. 375-403). Bloomington, IN: Slavica.
+- Zampini, M. L. (1998). The Relationship between the Production and Perception of L2 Spanish Stops. Texas Papers in Foreign Language Education, 3(3), 85–100.
+- Zampini, M. L., & Green, K. P. (2001). The voicing contrast in English and Spanish: The relationship between perception and production. In One mind, two languages bilingual language processing (pp. 23–48). Malden, Mass; Oxford: Blackwell.
 
 --- .segue bg:pink
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Extras
 
