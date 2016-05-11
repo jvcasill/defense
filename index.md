@@ -178,7 +178,7 @@ of L2 fine phonetic detail?
 4. What is the temporal relationship between production and perception with regard 
 to category formation? 
 5. Do LLs shift between language specific perceptual systems?
-6. What is the role of input with regard to accurately and efficiently acquiring a novel 
+6. What is the role of input and L1/L2 use with regard to accurately and efficiently acquiring a novel 
 speech sound?
 
 ---
@@ -2120,7 +2120,7 @@ Distractors
 
 - VOT values decreased over course of program
 - Only /p, t/ within native range
-- Production gains offset by semantic processing
+- Production gains offset by more difficult task
 
 ---
 
