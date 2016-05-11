@@ -2110,17 +2110,15 @@ Distractors
 
 ### Assessment
 
-- LL group used English minimally and Spanish almost exclusively. 
-- TL input mainly from native speakers or non-native speakers with high levels of proficiency in Spanish. 
-- Listening, speaking, and overall abilities in Spanish improved over the course of the program.
+- LL group used English minimally and Spanish almost exclusively
+- TL input mainly from native speakers or non-native speakers with high levels of proficiency 
+- Listening, speaking, and overall abilities in Spanish improved over the course of the program
 
 </br>
 
 ### Production
 
-- VOT values changed over course of program
-  - Produce voiceless short-lag stops for bilabials and coronals 
-  - Incorporate pre-voicing into their production of voiced stops
+- VOT values decreased over course of program
 - Only /p, t/ within native range
 - Production gains offset by semantic processing
 
@@ -2147,8 +2145,8 @@ Distractors
 
 ### Longitudinal development of phonetic categories
 
-- L2 phonetic category formation appears to occur **abruptly** and at an **early** stage of L2 learning, at least for stops. 
-- The initial changes then continue gradually as exposure and use of the target language increase.
+- L2 phonetic category formation appears to occur **abruptly** and at an **early** stage of L2 learning, at least for stops
+- Further development continues gradually as exposure to and use of the target language increase
 
 *** pnotes
 
@@ -2167,7 +2165,7 @@ Distractors
 
 ### Early L2 representations
 
-- Evidence suggesting that adult learners can develop an L2 perceptual system and may be capable of switching between this newly developed system and that of their L1 in a manner similar to that of native bilinguals.
+- Evidence suggesting that adult learners can develop an L2 perceptual system and may be capable of switching between this newly developed system and that of their L1 in a manner similar to that of native bilinguals
 - Initial gains in early stages of L2 learning are **fragile**, particularly sensitive to cross-linguistic influence
 - Cross-linguistic influence may diminish as proficiency in TL increases
 
@@ -2230,7 +2228,7 @@ Distractors
 ## Conclusion
 
 - The present investigation analyzed early second language learning in adults
-- Contributes to our understanding of the acquisition of L2 phonology in adult learners
+- Contributes to our understanding of the acquisition of L2 phonectic categories
 - The longitudinal data suggest that L2 phonetic category formation is abrupt, occurs at an early stage of development, and is perceptually driven
 - Early L2 representations are fragile, and especially susceptible to cross-linguistic influence
 
@@ -2410,6 +2408,153 @@ and cultures: Toward the 21st century (pp. 375-403). Bloomington, IN: Slavica.
 <div align="center">
   <img width="600" src="./assets/img/method/learnMidd2.gif">
 </div>
+
+---
+
+### 00_prodGLMM1
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/00_prodGLMM1.png">
+</div>
+
+---
+
+### 01_prodMULTcompLL
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/01_prodMULTcompLL.png">
+</div>
+
+---
+
+### 02_prodCOMPbi
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/02_prodCOMPbi.png">
+</div>
+
+---
+
+### 03_prodMULTcompBI
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/03_prodMULTcompBI.png">
+</div>
+
+---
+
+### 04_prodB
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/04_prodB.png">
+</div>
+
+---
+
+### 05_prodD
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/05_prodD.png">
+</div>
+
+---
+
+### 06_prodG
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/06_prodG.png">
+</div>
+
+---
+
+### 07_prodP
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/07_prodP.png">
+</div>
+
+---
+
+### 08_prodT
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/08_prodT.png">
+</div>
+
+---
+
+### 09_prodK
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/09_prodK.png">
+</div>
+
+---
+
+### 10_prod2GLMM
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/10_prod2GLMM.png">
+</div>
+
+---
+
+### 11_perc1GLMM
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/11_perc1GLMM.png">
+</div>
+
+---
+
+### 12_perc1RAW
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/12_perc1RAW.png">
+</div>
+
+---
+
+### 13_perc1COMPbi
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/13_perc1COMPbi.png">
+</div>
+
+---
+
+### 14_perc2GLMM
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/14_perc2GLMM.png">
+</div>
+
+---
+
+### 15_perc2RAW
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/15_perc2RAW.png">
+</div>
+
+---
+
+### 16_prodPercPROD
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/16_prodPercPROD.png">
+</div>
+
+---
+
+### 17_prodPercPERC
+
+<div align="center">
+  <img width="850" src="./assets/img/extras/17_prodPercPERC.png">
+</div>
+
+
+
 
 
 
